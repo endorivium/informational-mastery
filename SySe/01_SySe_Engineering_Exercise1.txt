@@ -1,0 +1,38 @@
+1.2 Technical System: Oven
+
+Numerosity: viele Komponente wie bspw. Heizelement, hitzeresistente Tür, Licht, Lüfter, etc
+Non-Linearity: erhöhte Effektivität, Summe erreicht mehr als Einzelteile (
+Connectivity: Bedienung über Tasten, Komponente arbeiten zsm um Nahrung fertigzustellen
+Adaptation: Essenszubereitung, Temperaturanpassung (Phase Transition)
+
+Emergentes Verhalten: Zubereitung von Essen
+
+c) Development: Elektrotechnik, Physik, Informatik, Material
+Optimization: Elektrotechnik
+Operating: most human beings
+
+d) Programming, Test, Organisation
+Softskills: Kommunikation, Kooperation
+
+Notes: Technical Systems Examples
+Fertigungsstraße im Chemielabor/ Batterieproduktion: In/Out, Hierarchie Teilkomponente, Sensoren, Adaptiv
+Engineering Areas: Mechanik, Mechatronik, Chemie, Safety, Security
+Exp. needed: System Design, System Architekt, Wissen über Regulationen, Sicherheit (System, Cyber), Fachwissen
+
+CT (Computer Tomography)/AI: kompliziert und komplex durch Dynamik des mensch. Körpers
+Engineering Areas: Maschinenbau, Medizin, AI
+Exp. needed:  Vorwissen vorherige System, Medizinisches Vorwissen
+
+Halbleiterfertigung: Maschinen interagieren, bei Ausfall der Maschinen dynamisch (nicht-lineare Ausfälle, i.e. unvorhersehbar)
+Engineering Areas: Elektronik, Physik, Chemie (Gase), Maschinenbau, Reinraumtechnologie
+Exp. needed: System Design (welche Anlagen wo?), Marktanalyse (zukünftige Kundenwünsche abschätzen)
+
+alle Systeme benötigen Informatikexpertise
+
+1.3
+a) Systems Engineering ist immer Teil von Software Engineering, aber nicht umgekehrt
+
+b) Software Engineering beinhaltet Systems Engineering und Requirements Engineering
+
+Notes: 
+Software Engineering geht in die Tiefe, während System Engineering auf die technischen Aspekte und das große Ganze fokussiert

@@ -1,0 +1,104 @@
+header:
+  version: 17
+
+target: core-image-minimal
+machine: beagley-ai
+
+
+repos:
+  oe-core:
+    url: "https://git.openembedded.org/openembedded-core"
+    branch: "scarthgap"
+    layers:
+      meta: 
+
+  meta-openembedded:
+    url: "https://git.openembedded.org/meta-openembedded"
+    #refspec: "scarthgap"
+    branch: "scarthgap"
+    layers:
+      meta-oe:
+      meta-python:
+      meta-networking:
+      meta-filesystems:
+
+  bitbake:
+    url: "https://github.com/openembedded/bitbake.git"
+    branch: "2.8"
+    layers: 
+      bitbake: excluded
+
+  meta-ti:
+    url: "https://git.yoctoproject.org/meta-ti"
+    refspec: "scarthgap"
+    layers:
+      meta-ti-extras:
+      meta-ti-bsp:
+      meta-beagle:
+
+  meta-yocto:
+    url: "https://git.yoctoproject.org/meta-yocto"
+    refspec: "scarthgap"
+    layers:
+      meta-poky:
+      meta-yocto-bsp:
+
+  meta-arm:
+    url: "https://git.yoctoproject.org/meta-arm"
+    refspec: "scarthgap"
+    layers:
+      meta-arm:
+      meta-arm-toolchain:
+
+  meta-arago:
+    url: "https://git.yoctoproject.org/meta-arago"
+    refspec: "scarthgap"
+    layers:
+      meta-arago-extras:
+      meta-arago-test:
+
+bblayers_conf_header:
+  standard: |
+    POKY_BBLAYERS_CONF_VERSION = "2"
+    BBPATH = "${TOPDIR}"
+    BBFILES ?= ""
+
+local_conf_header:
+  reduce_diskspace: |
+    INHERIT += "rm_work"
+
+  standard: |
+    CONF_VERSION = "2"
+    PACKAGE_CLASSES = "package_ipk"
+    SDKMACHINE = "x86_64"
+    USER_CLASSES = "buildstats"
+    PATCHRESOLVE = "noop"
+    INHERIT += "buildhistory"
+    BUILDHISTORY_COMMIT = "1"
+
+  distro: |
+    DISTRO = "poky"
+
+  debug-tweaks: |
+    EXTRA_IMAGE_FEATURES += "debug-tweaks"
+
+  diskmon: |
+    BB_DISKMON_DIRS = "\
+      STOPTASKS,${TMPDIR},1G,100K \
+      STOPTASKS,${DL_DIR},1G,100K \
+      STOPTASKS,${SSTATE_DIR},1G,100K \
+      STOPTASKS,/tmp,100M,100K \
+      HALT,${TMPDIR},100M,1K \
+      HALT,${DL_DIR},100M,1K \
+      HALT,${SSTATE_DIR},100M,1K \
+      HALT,/tmp,10M,1K"
+
+  downloads: |
+    DL_DIR ?= "${TOPDIR}/downloads"
+    INHERIT += "own-mirrors"
+    SOURCE_MIRROR_URL = "file:///downloads/"
+
+
+
+
+

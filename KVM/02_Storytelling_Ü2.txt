@@ -1,0 +1,24 @@
+Produkt: Brush Pen
+
+Produkt: Systemigram Program
+Projekt Tracking Software
+Documentation Program "Systemflow"
+
+Zielgruppe: Producer
+
+Emotionen: Freude (erhöhte Effizienz)
+
+Story:
+- vor Kurzem angefangen Chinesisch zu lernen und während die Aussprache eigene Herausforderung bietet, ist die größere Herausforderung das Üben der Schriftzeichen
+- mir wurde gesagt, im Alltag braucht man ca 1000 Schriftzeichen, also Schriftzeichen zu üben ist A und O
+- traditionell wurden Schriftzeichen mit Pinsel geschrieben, also ist Reihenfolge der Schreibweise sehr wichtig
+- mit normalen Stift nachahmbar, aber teils schwer einzuhalten und zu kontrollieren -> Kaufen eines Pinselstiftes
+- seitdem tieferes Verständnis und Überblick wie die Zeichen sich zusammensetzen und geschrieben werden, v.a. von der Reihenfolge her -> Lernverhalten hat erhöhte Effizienz
+- deswegen ist es so wichtig, das richtige Werkzeug zu wählen
+
+-> das gleiche beim Einarbeiten von Junioren in die Firma, trial by fire möglich aber effizienter ihnen ein Tool zu geben, welches ihnen ein tieferes Veständnis und Überblick über die Ziele der Firma, Instandhalten und Erstellen durch die Firma
+
+
+
+
+

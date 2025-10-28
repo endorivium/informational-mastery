@@ -1,0 +1,17 @@
+create table drinks(
+	name varchar(60) primary key
+);
+
+create table ingredients(
+	name varchar(60) primary key
+);
+
+create table recipe(
+	drink varchar(60) references drinks(name),
+	ingredient varchar(60) references ingredients(name),
+	amount_in_ml int,
+	primary key(drink, ingredient)
+);
+
+
+
