@@ -27,10 +27,10 @@ func Reduce(array []string, f func(a, b string) string) string {
 	return reducedString
 }
 
-// https://medium.com/@yazeedb/implement-array-reduce-with-recursion-7a854409ac44
-func ReduceWithRecursion(array []string, f func(a, b string) string) []string {
+// ReduceWithRecursion https://medium.com/@yazeedb/implement-array-reduce-with-recursion-7a854409ac44
+func ReduceWithRecursion(array []string, f func(a, b string) string) any {
 	if len(array) == 1 {
-		return array
+		return array[0]
 	}
 
 	array[1] = f(array[0], array[1])
