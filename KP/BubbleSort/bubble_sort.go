@@ -2,13 +2,12 @@
 
 import (
 	"fmt"
-	"sort"
 )
 
 func BubbleSort(data []int, f func(i, j int) bool) {
 	for i := 0; i < len(data); i++ {
 		for j := 0; j < len(data)-1; j++ {
-			if f(j,j+1) {
+			if f(j, j+1) {
 				data[j], data[j+1] = data[j+1], data[j] // Swap the values
 			}
 		}

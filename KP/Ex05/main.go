@@ -2,6 +2,13 @@
 
 import "fmt"
 
+func Filter(array []string, f func(string) bool) []string {
+	for i, v := range array {
+	if(f(v)){
+
+	}
+}
+
 func main() {
 	notDigit := func(input string) bool {
 		for _, r := range input {
