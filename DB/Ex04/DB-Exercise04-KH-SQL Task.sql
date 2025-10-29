@@ -78,62 +78,187 @@ where l.Office like 'D%'
 
 
 -- 1b
-select sie.Student 
-from Student_in_Event as sie
-where sie.Semester='ss18' and sie.Grade is null
+select SinE.Student 
+from Student_in_Event as SinE
+where SinE.Semester='ss18' and SinE.Grade is null
 
 -- 1c
 select Name as 'Student', datediff(year, Birthday, current_timestamp) as 'Age'
 from Students
 where datediff(year, Birthday, current_timestamp) between 20 and 40
 
+-- solution (leap year)
+select	Name as n,
+	cast (datediff (day , Birthday ,CURRENT_TIMESTAMP)/365.25 as int) as 'Alter'
+from Students
+where datediff (day , Birthday ,CURRENT_TIMESTAMP)/365.25 between 20 and 40;
+
+
 -- 2a
 select distinct s.Name, e.Name as 'Event', e.Room as 'Location'
-from Students as s, Student_in_Event as sie, Events as e
-where s.Matriculation=sie.Student and sie.Event=e.Name and sie.Semester='ss18'
+from Students as s, Student_in_Event as SinE, Events as e
+where s.Matriculation=SinE.Student and SinE.Event=e.Name and SinE.Semester='ss18'
+
+-- note: different possible solution to join two tables, does the same
+select s.Name, s.Matriculation, e.Name, e.Room from 
+	Student_in_Event as SinE 
+	join Events as e on (SinE.Event = e.Name and SinE.Semester=e.Semester)
+	join Students as s on (s.Matriculation=SinE.Student)
+where SinE.Semester='ss18'
+
 
 -- 2b
-select Name as 'Student', datediff(year, Birthday, current_timestamp) as 'Age'
-from Students
-
 select concat(s1.Name, ' is older than ', s2.Name) as 'Age Relation'
 from Students as s1, Students as s2
 where datediff(year, s1.Birthday, current_timestamp) > datediff(year, s2.Birthday, current_timestamp)
 order by datediff(year, s1.Birthday, current_timestamp) desc, s1.Name
 
+ -- solution (note: should be in two columns), can apparently compare dates, so datediff is unnecessary
+ select
+	A.Name as Student , 
+	B.Name as '.. is older than'
+from
+	Students as A, 
+	Students as B
+where
+	A.Birthday<B. Birthday 
+order by 
+	A. Birthday asc
+
+
 -- 2c
--- note: in a case all values must be the same data type, see grade comparison below
+-- note: if using else, then all data types within the case clause must be the same data type
 select concat( s.Name, 
 ' participated in the lecture ',
-sie.Event, 
+SinE.Event, 
 ' during the ', 
 	case
-		when sie.semester='ws18'
-			then 'winter semester 2018 '
-		when sie.semester='ss17'
+		when SinE.semester='ws17'
+			then 'winter semester 2017 '
+		when SinE.semester='ss17'
 			then 'summer semester 2017 '
-		when sie.semester='ss18'
+		when SinE.semester='ss18'
 			then 'summer semester 2018 '
 	end,
 'and ',
 	case
-		when sie.Grade like '5.0'
-			then 'did not pass.'
-		when sie.Grade is null
+		when SinE.Grade is null
 			then 'has no grade so far.'
-		else concat('has obtained the grade ',sie.Grade,'. Congratulations!')
+		when SinE.Grade>4
+			then 'did not pass.'
+		when SinE.Grade<=4
+			then concat('has obtained the grade ',SinE.Grade,'. Congratulations!')
 	end)
-from Students as s, Student_in_Event as sie
-where s.Matriculation = sie.Student
+from Students as s, Student_in_Event as SinE
+where s.Matriculation = SinE.Student and SinE.Semester in ('ws17', 'ss17', 'ss18')
 
--- 3a
-select e.Lecturer, e.Name, min(sie.Grade) as 'Best Grade'
-from Events as e, Student_in_Event as sie
-where e.Name = sie.Event and sie.Grade is not null
+-- also possible to solve without concat:
+select *, s.Name +
+' participated in the lecture ' +
+SinE.Event +
+' during the ' + 
+	case
+		when SinE.semester='ws17'
+			then 'winter semester 2017 '
+		when SinE.semester='ss17'
+			then 'summer semester 2017 '
+		when SinE.semester='ss18'
+			then 'summer semester 2018 '
+	end +
+'and ' +
+	case
+		when SinE.Grade is null
+			then 'has no grade so far.'
+		when SinE.Grade>4
+			then 'did not pass.'
+		when SinE.Grade<=4
+			then 'has obtained the grade ' + cast(SinE.Grade as varchar) +'. Congratulations!'
+	end
+from Students as s, Student_in_Event as SinE
+where s.Matriculation = SinE.Student and SinE.Semester in ('ws17', 'ss17', 'ss18')
+
+-- 3a, note: prof solution does not represent most efficient solution and instead makes use of all
+select e.Lecturer, e.Name, min(SinE.Grade) as 'Best Grade'
+from Events as e, Student_in_Event as SinE
+where e.Name = SinE.Event
 group by e.Lecturer, e.Name
+
+-- alt: assign null
+select e.Lecturer, e.Name, isnull(cast(min(SinE.Grade) as varchar), 'none') as 'Best Grade'
+from Events as e, Student_in_Event as SinE
+where e.Name = SinE.Event
+group by e.Lecturer, e.Name
+
+-- solution (not using min())
+select distinct 
+	L.Name, 
+	E.Name, 
+	concat ( 'Best Grade : ' , isnull(cast(SinE.Grade as varchar),'none')) 
+from 
+	Lecturers as L 
+	inner join Events as E on E.Lecturer=L.Name -- does the same as a conditional where
+	inner join Student_in_Event as SinE on SinE.Event = E.Name and SinE.Semester=E.Semester
+where -- all: performs a comparison between a single column and a range of other values (as determined by the clause following it)
+	SinE.Grade <= all ( 
+							select Grade 
+							from Student_in_Event as SinE2 
+								inner join Events as E2 on SinE2.Event=E2.Name and SinE2. Semester=E2.Semester 
+								inner join Lecturers as L2 on E2.Lecturer=L2.Name 
+							where Grade is not null and E2.Name=E.Name and L2.Name=L.Name
+							);
+-- in the above, each grade is compared to all other grades via select (meaning the select needs to be copied)
+
 
 -- 3b
-select e.Lecturer, e.Name, min(sie.Grade) as 'Best Grade', max(sie.Grade) as 'Worst Grade'
-from Events as e, Student_in_Event as sie
-where e.Name = sie.Event and sie.Grade is not null
+select 
+	e.Lecturer, 
+	e.Name, 
+	isnull(cast(min(SinE.Grade) as varchar), 'none') as 'Best Grade', 
+	isnull(cast(max(SinE.Grade) as varchar), 'none') as 'Worst Grade'
+from Events as e, Student_in_Event as SinE
+where e.Name = SinE.Event
 group by e.Lecturer, e.Name
+
+
+-- solution: same as previous but done twice to find the worst grades as well
+select distinct 
+	L.Name, 
+	E.Name, 
+	concat ( 'Best Grade : ' , isnull(cast(SinE.Grade as varchar),'none')) 
+from 
+	Lecturers as L 
+	inner join Events as E on E.Lecturer=L.Name 
+	inner join Student_in_Event as SinE on SinE.Event = E.Name and SinE.Semester=E.Semester 
+where  
+	SinE.Grade <= all ( 
+							select Grade 
+							from Student_in_Event as SinE2 
+								inner join Events as E2 on SinE2.Event=E2.Name and SinE2. Semester=E2.Semester 
+								inner join Lecturers as L2 on E2.Lecturer=L2.Name 
+							where Grade is not null and E2.Name=E.Name and L2.Name=L.Name
+							)
+union
+select distinct 
+	L.Name, 
+	E.Name, 
+	concat ( 'Worst Grade : ' , isnull(cast(SinE.Grade as varchar),'none')) 
+from 
+	Lecturers as L 
+	inner join Events as E on E.Lecturer=L.Name 
+	inner join Student_in_Event as SinE on SinE.Event = E.Name and SinE.Semester=E.Semester 
+where  
+	SinE.Grade >= all ( 
+							select Grade 
+							from Student_in_Event as SinE2 
+								inner join Events as E2 on SinE2.Event=E2.Name and SinE2. Semester=E2.Semester 
+								inner join Lecturers as L2 on E2.Lecturer=L2.Name 
+							where Grade is not null and E2.Name=E.Name and L2.Name=L.Name
+							);
+
+-- 3c solution
+select		count(*) as anz, 
+			Student, Event, 
+			Semester 
+from		Student_in_Event 
+group by	Student,Event, Semester 
+having		count(*)>1;
