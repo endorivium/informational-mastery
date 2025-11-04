@@ -1,0 +1,59 @@
+What could be an influencing factor for innovative product architectures?
+- modular system architectures have advantages in simplicity and reusability
+- understanding of relation and interaction between components (through representative models) is decisive and prerequisite to innovation, should preferably highlight interfaces and interactions between system elements
+
+What are the three steps to form a DMS?
+- decompose the system into elements
+- understand and document the interactions between the elements (i.e. their integration)
+- analyze potential reintegration of the elements via clustering (integration analysis)
+
+What are the four types of system interactions?
+- spatial: associations of physical space and alignment; needs for adjacency or orientation between two elements
+- energy: needs for energy transfer/exchange between two elements (e.g. power supply)
+- information: needs for data or signal exchange between two elements
+- material: needs for material exchange between two elements
+
+What does weighting of off-diagonal marks mean?
+- off-diagonal square marks are replaced by numbers (coupling coefficient); can be linear or exponential and describe the importance of the interactions between given elements 
+
+What are the steps of integration analysis?
+- done via clustering of off-diagonal elements by reordering rows and columns
+- foremost objective is to maximize interactions between elements within clusters (chunks) and minimize interactions between clusters, minimization of cluster size
+- may be useful to allow overlap where one element may be in more than one cluster
+- keep data busses that interact with all clusters out of the matrix
+- highly interactive components should be part of a "controls cluster"
+
+What does clustering algorithms mean in that sense?
+- reordering of rows and columns to optimize an objective function in the DSM configuration
+- objective is defined based on the needs of the system
+- e.g. objective: minimize coupling between clusters while minimizing the size of the largest cluster -> DSM has clusters along diagonal
+- clustering algorithm should account for the importance of both preluding negative relationships and ensuring positive ones
+
+1)
+- Interaktion verstehen => kompl. System managen
+- Wiederverwendbarkeit
+- Wartbarkeit
+- Interaktionen sind entscheidend -> Schnittstellen
+
+2)
+- Decompose -> Systemzerlegung
+- Understand & Doc -> Interactions
+- Umstrukturierung -> efficient
+
+3) [D(imensionen)]
+Spatial (Anordnung)
+Information (Data)
+Material (Liquid, Air)
+Energie (Strom)
+
+4)
+Coupling Coefficient: Gewichtung -> numerisch auswerten
+e.g. -2 bis 2 (linear)
+spatial interpretation: Schaden (-2) <- -> Notwendig (2)
+
+5)
+- Reordering (rows/ columns) -> Clustering
+Interaktion in Cluster: Maximieren
+Interaktion zwischen Cluster: Minimieren
+
+
