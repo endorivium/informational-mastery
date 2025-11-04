@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5419d2f4-cbde-404c-861d-0b4c28130060" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../KP/Ex05.2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KP/Ex05/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../KP/Ex05.2/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KP/Ex05/.idea/Ex05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../KP/Ex05.2/.idea/Ex05.2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KP/Ex05/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KP/Ex05.2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KP/Ex05/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KP/Ex05.2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KP/Ex05/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KP/Ex05.2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KP/Ex05/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../KP/Ex05.2/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KP/Ex05/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex02/.idea/exercise2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex02/.idea/workspace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex02/bookIndex/exercise22.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex02/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex02/main_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex03/.idea/Ex03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex03/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex03/ex03.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KVM/Ex03/go.mod" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.25.3" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="34l5y7dVKgoSgnx8pBk9PbeBtb0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Go Build.go build CrossSum.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboarding": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/jihre",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Users/Julia Ihrenberger/Documents/1_Studium_Informatik/informational-mastery/CrossSum/main.go",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="go build CrossSum" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="CrossSum" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="CrossSum" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build CrossSum" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-f466f9b0953e-146d08934cbf-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-252.27397.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-GO-252.27397.100" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5419d2f4-cbde-404c-861d-0b4c28130060" name="Changes" comment="" />
+      <created>1761775569385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761775569385</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
