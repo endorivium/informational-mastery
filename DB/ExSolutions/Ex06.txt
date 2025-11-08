@@ -1,0 +1,46 @@
+Task 1
+
+R = {A B C D E F}
+A B > C D E
+D  > F
+A B C > D E
+
+S = {V W X Y Z}
+V > W X Y Z
+W Z > V X Y
+Y > Z
+
+1. R
+A B > C 
+A B > D
+A B > E
+D  > F ----
+A B C > D => A B > D ----
+A B C > E => A B > E ----
+
+A B > C D E
+D > F
+
+Key is {A, B}
+{A B}^+_FD = {A B C D E F}
+
+- 
+- 
+
+S
+V > W
+V > X
+V > Y
+V > Z
+W Z > V => Z > V ----
+W Z > X => Z > X ----
+W Z > Y => Z > Y ----
+Y > Z ----
+
+V > W X Z Y
+
+V^+_FD = {V W X Y Z}
+
+Key is {V}
+
+- does conform to 2NF

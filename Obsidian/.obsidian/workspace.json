@@ -6,6 +6,7 @@
       {
         "id": "45553071f67b5685",
         "type": "tabs",
+        "dimension": 68.18885448916409,
         "children": [
           {
             "id": "1b952fa84a684fe7",
@@ -33,10 +34,34 @@
               },
               "icon": "lucide-file",
               "title": "Chapter 4 Relational Database Design"
-            }
+            },
+            "group": "73328a77197c2999"
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "bf5e5649139f40af",
+        "type": "tabs",
+        "dimension": 31.811145510835914,
+        "children": [
+          {
+            "id": "1e6e07f405b1a797",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DB/Chapter 4 Relational Database Design.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Chapter 4 Relational Database Design"
+            },
+            "group": "73328a77197c2999"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,6 +208,9 @@
   },
   "active": "fb3cf76fee78256e",
   "lastOpenFiles": [
+    "Pasted image 20251105094313.png",
+    "DB/Untitled.md",
+    "DB/Chapter 4 Relational Database Design.md",
     "Images/Pasted image 20251104141242.png",
     "Images/Pasted image 20251104141051.png",
     "Images/Pasted image 20251104140921.png",
@@ -191,7 +219,6 @@
     "Images/Pasted image 20251104135406.png",
     "Images/Pasted image 20251104135027.png",
     "Markdown Guide.md",
-    "DB/Chapter 4 Relational Database Design.md",
     "Images",
     "Images/Pasted image 20251104132710.png",
     "INF-M/SysE/02 System Thinking.md",

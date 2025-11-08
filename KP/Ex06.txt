@@ -1,0 +1,59 @@
+import Data.Time.Clock
+import Data.Time.Clock.POSIX
+
+sign a | a > 0 = 1
+       | a < 0 = -1
+       | otherwise = 0
+       
+factorial a | a < 2 = 1
+            | otherwise = a*factorial(a - 1)
+            
+pattern_fact 0 = 1
+pattern_fact n = n * pattern_fact(n-1)
+
+fibonacci 0 = 0
+fibonacci 1 = 1
+fibonacci a = fibonacci (a-1) + fibonacci (a-2)
+
+sumList [] = (0)
+sumList (x:xs) = x + sumList xs
+
+reverse_new [] = []
+reverse_new (x:xs) = reverse_new xs ++ [x]
+
+
+countOdds :: [Int] -> Int
+countOdds [] = 0
+countOdds (x:xs) | x `mod` 2 == 1 = countOdds xs + 1
+                 | otherwise = countOdds xs
+
+even_better :: Int -> Bool
+even_better n = n `mod` 2 == 0
+
+filter_new :: (Int -> Bool) -> [Int] -> [Int]
+filter_new f [] = []
+filter_new f (x:xs) | f x = [x] ++ filter_new f xs
+                    | otherwise = filter_new f xs
+
+-- returns a random number between 1 and 100
+getRandomFromTime :: IO Int
+getRandomFromTime = do
+    now <- getCurrentTime
+    let millis = floor $ utcTimeToPOSIXSeconds now * 1000
+    return $ (millis `mod` 100) + 1
+    
+--status :: Int ->  Int -> Bool
+status g s | g == s = return "You win"
+           | otherwise = return "You lose"
+
+main :: IO ()
+main = do secret <- getRandomFromTime
+          putStrLn "Try to guess a secret number 1-100."
+          input <- getLine
+          let guess = read input :: Int
+          isWin <- Main.status guess secret
+          print isWin
+          putStrLn "Done"
+
+
+

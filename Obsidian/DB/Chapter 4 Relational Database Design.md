@@ -38,7 +38,7 @@ i.e. one A can have multiple B assigned but not the other way around (aka unique
 >  ![[Pasted image 20251104140456.png]]
 
 <span style="color:rgb(146, 208, 80)">Augmentation</span>
-> If an attribute determines another, then <span style="color:rgb(255, 192, 0)">adding another attribute set does not change</span> this as long as the <span style="color:rgb(255, 192, 0)">augmentation is equal</span> (similar to equations).
+> If an attribute determines another, then <span style="color:rgb(255, 192, 0)">adding another attribute set does not change</span> this as long as the <span style="color:rgb(255, 192, 0)">augmentation is equal on both sides</span> (similar to equations).
 > ![[Pasted image 20251104140717.png]]
 
 <span style="color:rgb(146, 208, 80)">Decomposition</span>
@@ -54,3 +54,6 @@ i.e. one A can have multiple B assigned but not the other way around (aka unique
 
 <span style="color:rgb(146, 208, 80)">Pseudo-transitivity</span>
 > ![[Pasted image 20251104141242.png]]
+
+### Summary
+![[Pasted image 20251105094313.png]]
