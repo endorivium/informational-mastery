@@ -20,7 +20,7 @@ i.e. one A can have multiple B assigned but not the other way around (aka unique
 **<span style="color:rgb(146, 208, 80)">Key/ Candidate Key</span>**
 > A<span style="color:rgb(255, 192, 0)"> minimal subset </span>of a superkey that still fulfills its property is called a <span style="color:rgb(0, 176, 240)">Key</span> or <span style="color:rgb(0, 176, 240)">Candidate Key</span>.
 > ![[Pasted image 20251104135027.png]]
-> <span style="color:rgb(255, 192, 0)">K</span> is a key of R if K determines R and there is no subset of K that determines R. An attribbute that is a part of a key is called a <span style="color:rgb(0, 176, 240)">prime attribute</span>.
+> <span style="color:rgb(255, 192, 0)">K</span> is a key of R if K determines R and there is no subset of K that determines R. An attribute that is a part of a key is called a <span style="color:rgb(0, 176, 240)">prime attribute</span>.
 > A <span style="color:rgb(0, 176, 240)">primary key</span> is one of the candidate keys that is selected as such, i.e. superkeys > candidate keys > primary key
 
 <span style="color:rgb(146, 208, 80)">Foreign Key</span>
@@ -58,33 +58,17 @@ i.e. one A can have multiple B assigned but not the other way around (aka unique
 ### Summary
 ![[Pasted image 20251105094313.png]]
 ## Algorithms
-
 ### Splitting Algorithm
-
-  
-
 ![[Pasted image 20251104181353.png]]
-
 trivial: same attribute is on the left and right
-
 double: the exact same FD is already defined
-
-  
 
 ### Closure Algorithm
 
-  
-
 <span style="color:rgb(146, 208, 80)">Closure</span> of FDs
-
 > The <mark style="background: #ABF7F7A6;">closure FD^+ </mark>of a set of functional dependencies FD refers to the set of all functional dependencies that can be derived from an existing set FD.
-
 > ![[Pasted image 20251104182010.png]]
-
 > Essentially, it is a notation to describe <span style="color:rgb(255, 192, 0)">all FDs that a given attribute(s) is the determinant of </span>and can be used to solve e.g. the <span style="color:rgb(255, 192, 0)">membership problem </span>because if B is element of the closure set of A, then it is a member
 
-  
-
 The <span style="color:rgb(146, 208, 80)">closure algorithm</span> is then carried out as follows:
-
 ![[Pasted image 20251104182733.png]]

@@ -1,46 +1,111 @@
 Task 1
 
-R = {A B C D E F}
-A B > C D E
-D  > F
-A B C > D E
+1) and 2)
+Relation R
 
-S = {V W X Y Z}
-V > W X Y Z
-W Z > V X Y
-Y > Z
+AB > C
+AB > D
+AB > E
+D > F
+ABC > D
+ABC > E
 
-1. R
-A B > C 
-A B > D
-A B > E
-D  > F ----
-A B C > D => A B > D ----
-A B C > E => A B > E ----
-
-A B > C D E
+AB > C
+AB > D
+AB > E
+AB > D
+AB > E
 D > F
 
-Key is {A, B}
-{A B}^+_FD = {A B C D E F}
+AB > CDE
+D > F
 
-- 
-- 
+Key: AB
 
-S
+Relation S
+
 V > W
 V > X
 V > Y
 V > Z
-W Z > V => Z > V ----
-W Z > X => Z > X ----
-W Z > Y => Z > Y ----
-Y > Z ----
+WZ > V
+WZ > X
+WZ > Y
+Y > Z
 
-V > W X Z Y
+V > WXYZ
 
-V^+_FD = {V W X Y Z}
+alt:
+W > VXY
+Y > Z
 
-Key is {V}
+{Y} = {Y, Z}
+{W} = {W, V, X, Y, Z}
 
-- does conform to 2NF
+Key: V or W
+
+3)
+R does correspond to 2NF
+S does correspond to 2NF
+
+4)
+R does not correspond to 3NF since D is not superkey and F is not prime
+S does correspond to 3NF???
+
+5)
+R does not correspond because D is not superkey
+S does correspond???
+
+Task 3
+
+1)
+R > O
+O > A
+O > H
+O > P
+OP > D
+OP > R
+HP > P
+HPR > D
+
+R > O
+O > A
+O > H
+O > P
+P > D
+P > R
+
+R > O
+O > AHP
+P > DR
+
+{R} = {O A H P D R}
+{O} = {O A H P D R}
+{P} = {P D R O A H}
+
+Key: RT
+{R} = {R O A P H D R}
+
+Y corresponds to 2NF, 3NF and BCNF bc all LHS are superkeys
+
+Task 4
+
+1) It is in 2NF, though??
+2) All LHS are superkey and A is prime
+3) AE is not superkey and its right side is also not prime
+4) C is not superkey and D is also not prime
+5) C is not a superkey, so Z' is not BNCF conform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
