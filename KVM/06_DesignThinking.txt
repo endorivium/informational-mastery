@@ -1,0 +1,11 @@
+Design Thinking
+> iterative interdisciplinary structure that aids in the design of a product/solution
+
+- divergence + convergence: first look at the whole, then narrow it down
+- emergence
+- design stages: research, ideate, prototype, testing (not necessarily linear, can be repeated or occur simultaneously)
+> research (why): understand context and relation to it; gain insight, see advg/disadvg by evaluating existing designs
+> ideation (what): consider perspective of all stakeholders (human, economic, technology, environmental), each perspective has a filter that needs to be removed to find the true base which makes innovation possible
+> prototyping: experimental stage, fail early and repeatedly to avoid doing so later
+> testing: MVP (minimum viable product), key performance metric to evaluate effectiveness and sustainability
+
