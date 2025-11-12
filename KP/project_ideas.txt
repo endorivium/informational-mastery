@@ -5,3 +5,11 @@ learning campus
 zoo
 aquarium
 game mit ui
+schach
+
+turn-based strategy game (fire emblem, schach (shotgun king: the final checkmate?))
+exploration puzzle game
+pokemon-like game (defeat and collect creatures that you can use to fight, compendium of collected creatures)
+fishing game + virtual aquarium
+
+

@@ -46,14 +46,19 @@ getRandomFromTime = do
 status g s | g == s = return "You win"
            | otherwise = return "You lose"
 
+
+loop secret = do
+            input <- getLine
+            let guess = read input :: Int
+            if secret == guess then return "You win"
+            else do
+                if secret < guess then putStrLn "Lower"
+                else putStrLn "Higher"
+                loop secret
+
 main :: IO ()
 main = do secret <- getRandomFromTime
           putStrLn "Try to guess a secret number 1-100."
-          input <- getLine
-          let guess = read input :: Int
-          isWin <- Main.status guess secret
+          isWin <- Main.loop secret
           print isWin
           putStrLn "Done"
-
-
-
