@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func fib() <-chan int {
+	num := make(chan int)
+	x, y := 0, 1
+	go func() {
+		for {
+			x, y = y, x+y
+			num <- y
+		}
+	}()
+	return num
+}
+
+func main() {
+	fibChan := fib() // <- write func fib
+	for n := 1; n <= 10; n++ {
+		fmt.Printf("The %dth Fibonacci number is %d\n", n, <-fibChan)
+	}
+}

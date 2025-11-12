@@ -12,4 +12,14 @@ exploration puzzle game
 pokemon-like game (defeat and collect creatures that you can use to fight, compendium of collected creatures)
 fishing game + virtual aquarium
 
+pokemon-like game (defeat and collect creatures that you can use to fight, compendium of collected creatures)
+-> each creature has prefered habitat that player needs to find, as well as time of day
+-> type advantage
+
+
+PROJEKT: SCHACH
+-> jede figur hat eigene regeln
+-> tranfiguration vom bauer zu anderen figuren
+-> schachmatt
+
 
