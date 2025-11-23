@@ -1,5 +1,10 @@
 Hello world program
+How to Compile / Syntax Basics
 Type system
-How to compile
+Variables
+Functions
 Specialties
-syntax basics
+switch/case
+Control Flow?
+Error Handling?
+
