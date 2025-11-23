@@ -1,0 +1,3 @@
+Eingrenzung: Zentrale
+- Energiegewinn Quelle wird beachtet aber außen vor gelassen
+- Scope kleiner halten

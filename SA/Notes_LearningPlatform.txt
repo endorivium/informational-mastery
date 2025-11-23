@@ -1,0 +1,11 @@
+- open webpage
+- create account
+- login
+- list of suggested courses
+- click on course
+- start from beginning or personalised?
+- take knowledge test
+- sees module
+- select module and start
+- finish module, take quiz
+- take next module
