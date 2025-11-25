@@ -41,8 +41,8 @@ Block -
     ```
 
 Tasks
-- [ ] Task completed
-- [ ] Task not completed
+- [x] Task completed
+- [ a] Task not completed
 
 > Quotes/ Blockquotes
 
