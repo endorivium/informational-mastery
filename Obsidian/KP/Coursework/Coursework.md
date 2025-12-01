@@ -26,21 +26,46 @@ If the move was successfully executed, then the turn is given over to the other 
 
 When a player accomplishes a checkmate, the player scores are calculated and displayed and a winner is crowned.
 
+## Technical Loop
+1. Game start
+	-> setup board
+	-> pre-calculate current moves for each piece
+2. Player chooses ChessPiece
+	-> mark piece selected
+	-> notify manager, save piece selected
+	-> highlight available moves
+	1. Player deselects ChessPiece
+		-> mark piece deselected
+		-> notify manager, delete piece selected
+		-> hide available moves
+3. Player select tile to move to
+	-> mark piece deselected
+		-> pre-calc next moves and save
+	-> notify manager
+		-> block player input
+		-> check if piece takes other piece
+		-> capture piece
+	-> move piece to target tile
+	-> deselect piece
+	-> give turn over to other player
+	-> unblock player input
+<span style="color:rgb(0, 176, 240)">loop 2 and 3</span>
+
 # Implementation
 ## Functionality
 
 Save System?
 
-Parent ChessPiece
+### Parent ChessPiece
 - PieceType type
 - board position
 - special action pre<span style="color:rgb(0, 176, 240)">-</span>move
 - special action post-move
 
-struct PieceType
-- tile movement
+### struct PieceType
+- dictates tile movement
 
-Movement ChessPieces (RuleBook)
+### Movement ChessPieces (RuleBook)
 - Pawn: moves foward one
 	- move two on first move
 	- take chess piece on diagonal
@@ -55,7 +80,9 @@ Movement ChessPieces (RuleBook)
 - King: moves in any direction one tile
 	-  Rochade: switch position with unmoved Rook
 
-BoardManager
+- maybe pre-calculate the piece's moves whenever it is set down onto the board
+- when player moves piece, check pre-calculated moves with input and execute if available
+### BoardManager
 - chess piece configuration
 - selected chess piece
 	- get valid moves
@@ -64,7 +91,7 @@ BoardManager
 - check remis
 - chess piece value -> determine winner
 
-GUI
+### GUI
 - start game as black/white (might be unnecessary since it is local multiplayer)
 - chess board
 	- notify check + mate
