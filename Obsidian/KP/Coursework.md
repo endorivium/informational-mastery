@@ -82,3 +82,4 @@ GUI
 	- select: LMB, deselect: RMB
 	- when selecting/hovering chess piece show valid moves (toggleable?)
 	- show check + mate
+
