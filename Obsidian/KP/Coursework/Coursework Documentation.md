@@ -9,3 +9,6 @@ implemented default chess board generation
 created PieceMovement to dictate movement of the chess pieces via stepcount
 init{} can be used to execute code that needs to be executed whenever an instance of that class is created
 
+# 02/12/25
+modified piece movement and init in chess piece accordingly
+find available moves, removed piece movement and will instead implement per child class
