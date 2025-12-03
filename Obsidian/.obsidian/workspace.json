@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KP/Coursework/Coursework Documentation.md",
+                "file": "KP/Coursework/Coursework.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coursework Documentation"
+              "title": "Coursework"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KP/Coursework/Coursework Documentation.md",
+                "file": "KP/Coursework/Coursework.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Coursework Documentation"
+              "title": "Outline of Coursework"
             }
           }
         ],
@@ -170,9 +170,9 @@
   },
   "active": "da6fb2a6b5635539",
   "lastOpenFiles": [
+    "KP/Coursework/Coursework Documentation.md",
     "KP/Coursework/Coursework.md",
     "KP/Coursework",
-    "KP/Coursework/Coursework Documentation.md",
     "KP/Lightning Round.md",
     "KP/Resources.md",
     "Markdown Guide.md",

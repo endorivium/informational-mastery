@@ -1,4 +1,11 @@
 Goal: Implementing Chess in Go and Kotlin
+# To Do
+- [ ] check necessary dependencies to run project in intellij idea when pulling from git repo
+	- [ ] Jetbrains Runtime 21.0.9 (SDK)
+
+# Notes for Presentation
+- it's fine to include slides from the lightning round, duplication is allowed
+
 # Game Loop
 ## Kotlin
 
@@ -26,7 +33,7 @@ If the move was successfully executed, then the turn is given over to the other 
 
 When a player accomplishes a checkmate, the player scores are calculated and displayed and a winner is crowned.
 
-## Technical Loop
+## Technical Loop (UI)
 1. Game start
 	-> setup board
 	-> pre-calculate current moves for each piece
@@ -50,6 +57,11 @@ When a player accomplishes a checkmate, the player scores are calculated and dis
 	-> give turn over to other player
 	-> unblock player input
 <span style="color:rgb(0, 176, 240)">loop 2 and 3</span>
+
+### Addendum: I/O
+for go (and the inital base implementation in kotlin) interactions are done via user input and output
+
+overall, the player should be able to use basic "[Square] to [Square]" notation when moving a chess piece. additionally, the player should be 
 
 # Implementation
 ## Functionality
