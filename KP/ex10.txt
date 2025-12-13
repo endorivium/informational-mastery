@@ -1,0 +1,93 @@
+male(albert).
+male(bob).
+male(bill).
+male(carl).
+male(charlie).
+male(dan).
+male(edward).
+
+female(alice).
+female(betsy).
+female(diana).
+
+parent(albert, bob).
+parent(albert, betsy).
+parent(albert, bill).
+
+parent(alice, bob).
+parent(alice, betsy).
+parent(alice, bill).
+
+parent(bob, carl).
+parent(bob, charlie).
+parent(diana, charlie).
+
+?-parent(Parent, charlie), parent(Grandparent, Parent)
+
+?-parent(Parent, charlie), parent(Grandparent, Parent), female(Grandparent)
+
+?-parent(Parent, bob), parent(Parent, Sibling), dif(Sibling, bob)
+
+//GRIDPUZZLE
+:- style_check(-singleton).
+
+solution(GridPuzzle) :-
+	GridPuzzle = [
+                 kid(Name1, Color1, Pet1),
+                 kid(Name2, Color2, Pet2),
+                 kid(Name3, Color3, Pet3)
+                 ],
+		member(kid(lisa, X, fish),GridPuzzle), dif(X, green),  %lisa has a fish
+		member(kid(susan, red,  _),GridPuzzle), %susan likes red
+		member(kid(_, green, dog),GridPuzzle),
+		member(kid(angela, _, _),GridPuzzle),
+		member(kid(_, _, cat),GridPuzzle),
+		member(kid(_, blue, _), GridPuzzle).
+
+
+//RIVER CROSSING
+% FLUSSÜBERQUERUNG - MISSIONARE UND KANNIBALE
+%
+% A farmer has purchased a wolf, a sheep and a cabbage. He wants to cross a river.
+% However, the wolf will eat the sheep which will eat the cabbage if left unattended.
+% The farmer can only cross the river with one more entity.
+% The min amount of turns needed to solve this is 7.
+
+% We define the following data structure State=[Boot, Wolf, Sheep, Cabbage]
+% First entry is the boat, followed by the wolf, the sheep and the cabbage.
+% The state vector saves the position (a or b ) for each actor.
+
+% start  :- [a, a, a, a]
+% finish :- [b, b, b, b]
+
+:- style_check(-singleton).
+
+% The river can be crossed from a to b and vice versa
+cross(a,b).
+cross(b,a).
+
+% define movement
+move([X, X, S, C], w, [Y, Y, S, C]) :- cross(X,Y).
+move([X, W, X, C], s, [Y, W, Y, C]) :- cross(X,Y).
+move([X, W, S, X], c, [Y, W, S, Y]) :- cross(X,Y).
+move([X, W, S, C], f, [Y, W, S, C]) :- cross(X,Y).
+
+% wolf is not alone with sheep, sheep is not alone with cabbage
+safe([X, X, X, X]). %all on one side
+safe([X, Y, X, X]). %wolf on other side
+safe([_, Y, X, Y]). %sheep on other side
+safe([X, X, X, Y]). %cabbage on other side
+safe([Y, Y, Y, Y]). %all on other side
+
+% Recursive solution, similar to mathematical induction.
+% Final state is a valid solution, i.e. when all people have crossed the river to side b.
+solution([b, b, b, b], []).
+% Crossings that lead to a save state and a known solution are also valid solutions.
+solution(State, [Move|OtherMoves]) :- move(State, Move, NextState),
+                                      safe(NextState),
+                                      solution(NextState, OtherMoves).
+
+% Speed up the recursive calculation by remembering the previous results in a table
+:- table solution/2.
+% Only search for solutions with 11 river crossings and print it
+% run :- length(X,11), solution([a,a,a,a], X), write(X), nl.

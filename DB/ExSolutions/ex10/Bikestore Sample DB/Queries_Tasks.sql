@@ -17,7 +17,7 @@ left join order_items on
 where orders.order_id is not null and order_items.order_id is null
 
 -- c
-select product_name, model_year, quantity
+select product_name, model_year, sum(quantity), stores.store_id
 from products
 left join stocks on
 (products.product_id = stocks.product_id)
