@@ -1,0 +1,54 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="EOAvtQjcuYJfIkfHBz8Q">
+    <mxGraphModel dx="1188" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cv3974NcN-n0t2KBU2GY-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cv3974NcN-n0t2KBU2GY-22" target="cv3974NcN-n0t2KBU2GY-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="275.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-1" value="&lt;b&gt;Monitoring Unit&lt;/b&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=90;" vertex="1" parent="1">
+          <mxGeometry x="270" y="250" width="310" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-4" value="Strompreis&lt;div&gt;Interface&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-56;" vertex="1" parent="1">
+          <mxGeometry x="290.00000000000006" y="307.87" width="104.1" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-5" value="Smart Meter Interface" style="rounded=0;whiteSpace=wrap;html=1;rotation=-125;" vertex="1" parent="1">
+          <mxGeometry x="290" y="430" width="104.1" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cv3974NcN-n0t2KBU2GY-6" target="cv3974NcN-n0t2KBU2GY-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-6" value="Wettervorhersage&lt;div&gt;Interface&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=56;" vertex="1" parent="1">
+          <mxGeometry x="460.00193417640685" y="307.8705104505077" width="104.1" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-7" value="Energieproduktion&lt;div&gt;Interface&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-57;" vertex="1" parent="1">
+          <mxGeometry x="460.00193417640685" y="430.0005104505076" width="104.1" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cv3974NcN-n0t2KBU2GY-9" target="cv3974NcN-n0t2KBU2GY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-9" value="Adapter" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-21" value="" style="shape=card;whiteSpace=wrap;html=1;size=60;flipV=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-22" value="Strombörse" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="250" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-23" value="Strombörse" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="654.1" y="250" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cv3974NcN-n0t2KBU2GY-24" target="cv3974NcN-n0t2KBU2GY-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cv3974NcN-n0t2KBU2GY-24" value="Adapter" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;flipV=0;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="564.1" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,13 @@
+MODULE main
+VAR
+beingPushed : boolean;
+coinInserted : boolean;
+state : {locked, unlocked};
+
+ASSIGN
+init(state) := locked;
+next(state) := case
+	state = locked & coinInserted : unlocked;
+	state = unlocked & beingPushed : locked;
+	TRUE : state;
+	esac;

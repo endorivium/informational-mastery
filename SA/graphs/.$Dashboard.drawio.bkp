@@ -1,0 +1,34 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="cnhL-hJ5IJAZ1JECN92k">
+    <mxGraphModel dx="1426" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9701koB3ppI9xKzevhMb-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="9701koB3ppI9xKzevhMb-52" target="9701koB3ppI9xKzevhMb-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9701koB3ppI9xKzevhMb-49" value="&lt;b&gt;Dashboard&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Level 2)&lt;/b&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=90;" vertex="1" parent="1">
+          <mxGeometry x="290" y="390" width="310" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="9701koB3ppI9xKzevhMb-50" value="Graph Interface" style="rounded=0;whiteSpace=wrap;html=1;rotation=-56;" vertex="1" parent="1">
+          <mxGeometry x="300.00000000000006" y="457.87" width="104.1" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9701koB3ppI9xKzevhMb-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="9701koB3ppI9xKzevhMb-51" target="9701koB3ppI9xKzevhMb-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9701koB3ppI9xKzevhMb-51" value="Adapter" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="230" y="420" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9701koB3ppI9xKzevhMb-52" value="Visualisation Module (Graph)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9701koB3ppI9xKzevhMb-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="9701koB3ppI9xKzevhMb-56" target="9701koB3ppI9xKzevhMb-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9701koB3ppI9xKzevhMb-56" value="Time Series DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="395" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
