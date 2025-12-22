@@ -6,6 +6,13 @@ Goal: Implementing Chess in Go and Kotlin
 # Notes for Presentation
 - it's fine to include slides from the lightning round, duplication is allowed
 
+# Goals
+- decentralized and modular
+	- Chesspieces govern themselves
+	- Chessboard is just for queries
+	- UI/Graphics is separate from logic
+- demonstrate OOP
+
 # Game Loop
 ## Kotlin
 
@@ -36,12 +43,12 @@ When a player accomplishes a checkmate, the player scores are calculated and dis
 ## Technical Loop (UI)
 1. Game start
 	-> setup board
-	-> pre-calculate current moves for each piece
 2. Player chooses ChessPiece
+	-> calculate available moves
 	-> mark piece selected
 	-> notify manager, save piece selected
 	-> highlight available moves
-	1. Player deselects ChessPiece
+	2. Player deselects ChessPiece
 		-> mark piece deselected
 		-> notify manager, delete piece selected
 		-> hide available moves
@@ -64,20 +71,20 @@ for go (and the inital base implementation in kotlin) interactions are done via 
 overall, the player should be able to use basic "[Square] to [Square]" notation when moving a chess piece. additionally, the player should be 
 
 # Implementation
-## Functionality
+## Functionalities
 
 Save System?
 
-### Parent ChessPiece
+### struct PieceType
+- dictates tile movement
+
+### ParentClass ChessPiece
 - PieceType type
 - board position
 - special action pre<span style="color:rgb(0, 176, 240)">-</span>move
 - special action post-move
 
-### struct PieceType
-- dictates tile movement
-
-### Movement ChessPieces (RuleBook)
+#### Movement ChessPieces
 - Pawn: moves foward one
 	- move two on first move
 	- take chess piece on diagonal
@@ -94,7 +101,8 @@ Save System?
 
 - maybe pre-calculate the piece's moves whenever it is set down onto the board
 - when player moves piece, check pre-calculated moves with input and execute if available
-### BoardManager
+### Class BoardStateManager
+Responsibility: save and answer queries of current board configuration
 - chess piece configuration
 - selected chess piece
 	- get valid moves
@@ -103,7 +111,20 @@ Save System?
 - check remis
 - chess piece value -> determine winner
 
-### GUI
+### Class BoardRenderer
+Responsibility: render the board according to the current game state
+- visual of board
+- toggle highlight depending on list
+
+### Class InputHandler
+Responsibility: receive and manage player input, send out corresponding message
+- receive player input (board square coords)
+- render board
+	- chess pieces
+	- board tiles
+	- highlight squares
+
+### Player Feedback
 - start game as black/white (might be unnecessary since it is local multiplayer)
 - chess board
 	- notify check + mate
