@@ -1,0 +1,18 @@
+<html>
+<body>
+Yoooooo, shiiiit
+    <script src="wasm_exec.js"></script>
+    <script>
+        const go = new Go();
+
+        async function Run() {
+            let response = await fetch('lib.wasm')
+            let buffer = await response.arrayBuffer();
+            let result = await WebAssembly.instantiate(buffer, go.importObject);
+            go.run(result.instance)
+        }
+
+        Run()
+    </script>
+</body>
+</html>
