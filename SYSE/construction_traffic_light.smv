@@ -1,0 +1,44 @@
+MODULE traffic_light(signal)
+VAR
+green_light: boolean;
+waiting_cars: boolean;
+
+ASSIGN
+init(green_light) := FALSE;
+next(green_light) := case
+	green_light = FALSE & signal & waiting_cars: TRUE;
+	TRUE: FALSE;
+	esac;
+
+init(waiting_cars) := TRUE;
+next(waiting_cars) := case
+	waiting_cars = TRUE & green_light : FALSE;
+	TRUE: TRUE;
+	esac;
+
+MODULE main
+VAR
+sched: {processing, switch_signal};
+request: boolean;
+signal_light: {s1, s2};
+l1: traffic_light((signal_light=s1) & request);
+l2: traffic_light((signal_light=s2) & request);
+
+ASSIGN
+init(request) := FALSE;
+next(request) := case
+	sched=switch_signal: {TRUE, FALSE};
+	TRUE: request;
+	esac;
+
+init(signal_light) := s1;
+next(signal_light) := case
+	sched=switch_signal & l1.waiting_cars : s1;
+	sched=switch_signal & l2.waiting_cars : s2;
+	TRUE: signal_light;
+	esac;
+
+FAIRNESS sched = processing
+FAIRNESS sched = switch_signal
+
+SPEC AG(!l1.green_light & !l2.green_light)
