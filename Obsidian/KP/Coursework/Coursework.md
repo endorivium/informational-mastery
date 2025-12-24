@@ -101,8 +101,10 @@ Save System?
 
 - maybe pre-calculate the piece's moves whenever it is set down onto the board
 - when player moves piece, check pre-calculated moves with input and execute if available
+
+### Class GameManager
+
 ### Class BoardStateManager
-Responsibility: save and answer queries of current board configuration
 - chess piece configuration
 - selected chess piece
 	- get valid moves
@@ -117,7 +119,6 @@ Responsibility: render the board according to the current game state
 - toggle highlight depending on list
 
 ### Class InputHandler
-Responsibility: receive and manage player input, send out corresponding message
 - receive player input (board square coords)
 - render board
 	- chess pieces
@@ -143,3 +144,21 @@ Responsibility: receive and manage player input, send out corresponding message
 	- when selecting/hovering chess piece show valid moves (toggleable?)
 	- show check + mate
 
+## Domain/ Responsibility
+### InputHandler
+- receive and validate player input (algebraic notation)
+- send out move in algebraic notation
+### BoardStateManager
+- save and answer queries of current board configuration
+### GameManager
+- perpetuate game loop
+- communication center between 
+## Error Handling
+### Input Handling: Move Check
+For a move input to be valid, the following must be true:
+- input is longer than 4 characters
+- input is in standard notation
+- selected chess piece can move where the input dictates
+
+## Notes
+- printing bits as actual bits works as follows: println(a.toString(2)) -> 2 is radix that determines base
