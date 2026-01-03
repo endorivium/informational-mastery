@@ -42,7 +42,7 @@ Block -
 
 Tasks
 - [x] Task completed
-- [ a] Task not completed
+- [ ] Task not completed
 
 > Quotes/ Blockquotes
 
