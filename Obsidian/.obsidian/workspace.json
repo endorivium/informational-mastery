@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SYSE/Untitled.md",
+                "file": "KP/Coursework/Coursework.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Coursework"
             }
           }
         ],
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYSE/Untitled.md",
+                "file": "KP/Coursework/Coursework.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Coursework"
             }
           }
         ],
@@ -183,12 +183,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "4909c3ed0e471022",
+  "active": "ad4452c8cade3000",
   "lastOpenFiles": [
-    "KP/Coursework/Coursework.md",
-    "SYSE/Untitled.md",
-    "SYSE",
     "KP/Coursework/Coursework Documentation.md",
+    "SYSE/Untitled.md",
+    "KP/Coursework/Coursework.md",
+    "SYSE",
     "KP/Coursework",
     "KP/Lightning Round.md",
     "KP/Resources.md",
