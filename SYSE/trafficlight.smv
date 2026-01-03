@@ -1,0 +1,44 @@
+//lock request should lock other traffic light and light should stay same until cars have passed
+
+MODULE main
+VAR
+sched: {tl1, tl2, env};
+lockrequest1: boolean;
+lockrequest2: boolean;
+trafficlight1: {green, red};
+trafficlight2: {green, red};
+carsWaitingL: boolean;
+carsWaitingR: boolean;
+
+ASSIGN
+init(trafficlight1) := red;
+next(trafficlight1) := case
+	sched=tl1 & carsWaitingL: green;
+	TRUE: red;
+	esac;
+
+init(trafficlight2) := red;
+next(trafficlight2) := case
+	sched=tl2 & carsWaitingR: green;
+	TRUE: red;
+	esac;
+
+init(carsWaitingL) := FALSE;
+next(carsWaitingL) := case
+	sched = env & trafficlight1 = red: TRUE;
+	sched = env & trafficlight1 = green: FALSE;
+	TRUE: carsWaitingL;
+	esac;
+
+init(carsWaitingR) := FALSE;
+next(carsWaitingR) := case
+	sched = env & trafficlight2 = red: TRUE;
+	sched = env & trafficlight2 = green: FALSE;
+	TRUE: carsWaitingR;
+	esac;
+
+FAIRNESS sched=tl1;
+FAIRNESS sched=tl2;
+FAIRNESS sched=env;
+
+INVARSPEC(trafficlight1 = green & trafficlight2 = green)
