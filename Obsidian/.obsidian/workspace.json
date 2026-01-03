@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Coursework"
             }
-          },
-          {
-            "id": "ad4452c8cade3000",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KP/Coursework/Coursework.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Coursework"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,29 +168,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "ad4452c8cade3000",
+  "active": "da6fb2a6b5635539",
   "lastOpenFiles": [
     "KP/Coursework/Coursework Documentation.md",
-    "SYSE/Untitled.md",
     "KP/Coursework/Coursework.md",
+    "Pasted image 20251231234300.png",
+    "Board.jpg",
+    "Images/Pasted image 20251229233256.png",
+    "Images/Pasted image 20251104182733.png",
+    "Images/Pasted image 20251105094313.png",
+    "Images/Pasted image 20251226003321.png",
+    "Images/Pasted image 20251226003504.png",
+    "Images/Pasted image 20251226003544.png",
+    "Images/Pasted image 20251229154221.png",
+    "Images/Pasted image 20251104140921.png",
+    "Markdown Guide.md",
+    "KP/Resources.md",
+    "SYSE/Untitled.md",
     "SYSE",
     "KP/Coursework",
     "KP/Lightning Round.md",
-    "KP/Resources.md",
-    "Markdown Guide.md",
     "DB/Chapter 4 Relational Database Design.md",
     "KP",
-    "Images/Pasted image 20251105094313.png",
     "DB/Untitled.md",
-    "Images/Pasted image 20251104141242.png",
-    "Images/Pasted image 20251104141051.png",
-    "Images/Pasted image 20251104140921.png",
-    "Images/Pasted image 20251104140717.png",
-    "Images/Pasted image 20251104140456.png",
-    "Images/Pasted image 20251104135406.png",
-    "Images/Pasted image 20251104135027.png",
     "Images",
-    "Images/Pasted image 20251104132710.png",
     "INF-M/SysE/02 System Thinking.md",
     "INF-M/SysE"
   ]

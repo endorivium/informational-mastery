@@ -33,6 +33,11 @@ type GeoObject struct {
 	Color string
 }
 
+func (g GeoObject) Paint() {
+	fmt.Println("This GeoObject has the following attributes: "+
+		"\n - AnchorPosition: ", g.Pos, "\n - Color: ", g.Color)
+}
+
 type Circle struct {
 	ObjInfo GeoObject
 	Radius  float64
