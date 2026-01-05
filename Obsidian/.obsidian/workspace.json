@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KP/Coursework/Coursework.md",
+                "file": "KP/Coursework/Presentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coursework"
+              "title": "Presentation"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KP/Coursework/Coursework.md",
+                "file": "KP/Coursework/Presentation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Coursework"
+              "title": "Outline of Presentation"
             }
           }
         ],
@@ -168,10 +168,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "4909c3ed0e471022",
+  "active": "da6fb2a6b5635539",
   "lastOpenFiles": [
-    "KP/Coursework/Coursework Documentation.md",
     "KP/Coursework/Coursework.md",
+    "KP/Coursework/Coursework Documentation.md",
+    "KP/Coursework/Presentation.md",
     "Images/Pasted image 20251231234300.png",
     "Board.jpg",
     "Images/Pasted image 20251229233256.png",
