@@ -3,22 +3,21 @@ Goal: Implementing Chess in Go and Kotlin
 - [ ] check necessary dependencies to run project in intellij idea when pulling from git repo
 	- [ ] Jetbrains Runtime 21.0.9 (SDK)
 
-- [ ] fix en passant function
-- [ ] implement knight
-- [ ] implement queen
-- [ ] implement king
-- [ ] implement bishop
-- [ ] implement 
+- [x] fix en passant function
+- [x] implement knight
+- [x] implement queen
+- [x] implement king
+- [x] implement bishop
 
 - check if all OOP concepts are present:
-- [ ] Class
-- [ ] Objects
+- [x] Class
+- [x] Objects
 - [ ] Data Abstraction 
-- [ ] Encapsulation
-- [ ] Inheritance
-- [ ] Polymorphism
+- [x] Encapsulation
+- [x] Inheritance
+- [x] Polymorphism
 - [ ] Dynamic Binding
-- [ ] Message Passing
+- [x] Message Passing
 
 # Notes for Presentation
 - it's fine to include slides from the lightning round, duplication is allowed
