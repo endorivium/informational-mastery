@@ -223,7 +223,6 @@ For a move input to be valid, the following must be true:
 - except for that, renaming is very easy and works very reliably
 - for loop is very versatile and checks via ranges are easy to read
 - silent fail on bitshift over 32 bits is stupid
-- 
 
 ## Notes Golang
 - naming variables the same as packages leads to wrong code interpretation
