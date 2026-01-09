@@ -1,19 +1,22 @@
 Leo: 
 Introduction
 Architecture Constraints
-Cross-cutting Concepts
 Quality Requirements
+Lösungsstrategie
+Architecture Decision
 
 Paula:
 Context and Scope
 Deployment View
+User Story
+Risks and Technical Debts
 
 Julia:
 Building Block View
 Runtime View
+Randbedingungen
+Projektabgrenzung
+Cross-cutting Concepts
 
 at end:
-Solution Strategy
-Architecture Decision
-Risks and Technical Debts
 Glossary

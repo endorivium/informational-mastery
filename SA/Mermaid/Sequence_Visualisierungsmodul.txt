@@ -1,0 +1,35 @@
+sequenceDiagram
+    Dashboard Anwendung->>+Visualisierungsmodul: Visualisierung anfragen
+    Visualisierungsmodul->>+Optimisierungsmodul: Optimierter Energieverbrauch anfragen
+    
+    par Anfrage Prognose Energielast
+    Optimisierungsmodul->>+Energielast Prognose: Prognosenanfrage
+    Energielast Prognose ->>+Ueberwachungsmodul: Datenanfrage
+    Ueberwachungsmodul-->>-Energielast Prognose: schickt Daten
+    Energielast Prognose-->>-Optimisierungsmodul: schickt Prognose
+    
+    and Anfrage Prognose Energieproduktion
+    Optimisierungsmodul->>+Energieproduktion Prognose: Prognosenanfrage
+    Energieproduktion Prognose ->>+Ueberwachungsmodul: Datenanfrage
+    Ueberwachungsmodul-->>-Energieproduktion Prognose: schickt Daten
+    Energieproduktion Prognose-->>-Optimisierungsmodul: schickt Prognose
+
+    and Anfrage Prognose Energiekosten
+    Optimisierungsmodul->>+Energiekosten Prognose: Prognosenanfrage
+        Energiekosten Prognose ->>+Ueberwachungsmodul: Datenanfrage
+    Ueberwachungsmodul-->>-Energiekosten Prognose: schickt Daten
+    Energiekosten Prognose -->>- Optimisierungsmodul: schickt Prognose
+
+    and Anfrage Historie Energielast
+        Visualisierungsmodul->>+Ueberwachungsmodul: Datenanfrage vergangene Energielast
+        Ueberwachungsmodul-->>-Visualisierungsmodul: sendet Daten
+    and Anfrage Historie Energieproduktion
+    Visualisierungsmodul->>+Ueberwachungsmodul: Datenanfrage vergangene Energieproduktion
+        Ueberwachungsmodul-->>-Visualisierungsmodul: sendet Daten
+        and Anfrage Historie Energiekosten
+    Visualisierungsmodul->>+Ueberwachungsmodul: Datenanfrage vergangene Energiekosten
+        Ueberwachungsmodul-->>-Visualisierungsmodul: sendet Daten
+end
+Optimisierungsmodul-->>-Visualisierungsmodul: Optimierter Energieverbrauch
+
+Visualisierungsmodul-->>- Dashboard Anwendung: schickt Visualisierung
