@@ -14,8 +14,8 @@ Risks and Technical Debts
 Julia:
 Building Block View
 Runtime View
-Randbedingungen
-Projektabgrenzung
+Randbedingungen DONE
+Projektabgrenzung DONE
 Cross-cutting Concepts
 
 at end:
