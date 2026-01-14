@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="uv9MJdigdg2GU4tUnA7_">
-    <mxGraphModel dx="2276" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,7 +95,7 @@
         <mxCell id="x-jGo9qfuHgn2PwolOR8-77" edge="1" parent="1" source="x-jGo9qfuHgn2PwolOR8-75" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;" target="x-jGo9qfuHgn2PwolOR8-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x-jGo9qfuHgn2PwolOR8-75" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;strokeColor=light-dark(#77e3d5, #46a8af);align=center;verticalAlign=middle;spacingLeft=2;fontFamily=Helvetica;fontSize=12;fontStyle=0;fillColor=light-dark(#f0fdfa, #ededed);rounded=1;fontColor=default;strokeWidth=2;" value="&lt;b&gt;&lt;font&gt;Strompreis&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;(Börse)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="x-jGo9qfuHgn2PwolOR8-75" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;strokeColor=light-dark(#77e3d5, #46a8af);align=center;verticalAlign=middle;spacingLeft=2;fontFamily=Helvetica;fontSize=12;fontStyle=0;fillColor=light-dark(#f0fdfa, #ededed);rounded=1;fontColor=default;strokeWidth=2;" value="&lt;b&gt;&lt;font&gt;Strompreis&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font&gt;(Spotmarkt)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="130" x="-695" y="85" as="geometry" />
         </mxCell>
         <mxCell id="x-jGo9qfuHgn2PwolOR8-85" edge="1" parent="1" source="x-jGo9qfuHgn2PwolOR8-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;" target="x-jGo9qfuHgn2PwolOR8-51">
