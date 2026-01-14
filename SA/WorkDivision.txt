@@ -1,22 +1,24 @@
+User Stories DONE
+
 Leo: 
-Introduction
-Architecture Constraints
-Quality Requirements
-Lösungsstrategie
-Architecture Decision
+Introduction DONE
+Architecture Constraints DONE
+Quality Requirements -> SMART Format missing
+Lösungsstrategie -> not done
+Architecture Decision DONE
 
 Paula:
-Context and Scope
-Deployment View
-User Story
-Risks and Technical Debts
+Context and Scope -> change table
+Deployment View -> create table, change diagram
+User Story DONE
+Risks and Technical Debts DONE
 
 Julia:
-Building Block View
-Runtime View
-Randbedingungen
-Projektabgrenzung
-Cross-cutting Concepts
+Building Block View DONE
+Runtime View DONE
+Randbedingungen DONE
+Projektabgrenzung DONE
+Cross-cutting Concepts DONE
 
 at end:
-Glossary
+Glossary DONE (left it out)
