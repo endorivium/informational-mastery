@@ -1,0 +1,56 @@
+SYSE PART HÖFIG
+- V Modell Phasen
+- SYSMOD
+- OpsCon/ConOps
+- Requirements Definition Criteria
+- Architecture definition process
+- process steps
+- types of verification
+- ziel von modelbasiertes entwickeln
+- digrams in SysMl (alle wissen und zu welcher Phase) -> unterschied struktur/verhaltensdiagram
+- central micro-processes + roles
+- architecture process (alle kennen, unterschiede, welche diagramme, zusammenhänge)
+- base und functional architecture, logical und physical architecture
+-> MiniSYSMOD: base architecture, domain blocks
+		functional architecture -> use case diagramm, activity diagramm (nicht im detai zu wissen)
+	       logical architecure: internal/external interfaces, definition of done
+	       physical architecture: block definition diagram
+- further diagrams
+
+- Verification: wieso wird das gemacht?
+-> unterschiede zwischen techniques
+-> tests
+-> model checking
+-> state space und variables (abhängigkeit)
+-> properties
+-> INVARSPEC (keine formeln entwickeln müssen, nur sinn/verständnisfragen)
+-> unterschiede, use cases von LTL/CTL
+-> model checking phases
+-> model baut nicht state machine sondern beschreibt system
+
+- Maintenance/Reliability: definition begriffe
+-> typen (e.g. run to failure, preventative, etc)
+-> strategies maintenance
+-> COFA logic tree
+-> task planning (reason)
+-> siy sigma, fehlerrate, mean time und deren zusammenhang
+-> hohe varianz schlecht für siy sigma
+-> six sigma -> cosntant faillure rates does not work (ie. happens randomly all the time)
+-> predicitive maintenance techniques
+-> redundanz -> typen, mehrwert und warum man das nicht immer macht (teuer in anschaffung, überwachung)
+
+SYSE PART SILKE
+- unterschiede complicated/compley -> charakteristika
+- systems thinking -> hierachy, wie viele ebenen? whitebox, greybox, blackbox
+		   -> tasks, emergenz
+- transferaufgaben systemthinking
+- design structure matrix: wann benutzen?
+			   matrix verändern können
+			   relationships typen
+			   interpretation
+- modelling: charakteristika (folie 10), definition, abgrenzung simulation, risiken (zu starkes vertrauen, know-how), folie 12 diagram
+- simulation: was macht ein simulationsmodell aus?
+		welche inhalte sind nötig? parameter, datentypen, zeitlich abhängig, zustandsübergang
+- data management weglassen
+
+je Prof 3 Aufgaben a 45 Punkte insg. 90 Punkte -> 90min

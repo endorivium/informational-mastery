@@ -1,0 +1,29 @@
+select R.RName
+from Recipe as R
+ except
+select R2.RName
+from Recipe as R2 join braucht as b
+on R2.RNr = b.RNr
+join Zutat as Z on Z.ZNr = b.ZNr
+where Z.ZName != 'Mehl'
+
+create function countRecipes(@ingredient varchar(40))
+returns int
+begin
+	declare @num int;
+	set @num= select count(*)
+	from Recipe as R join braucht as b
+	on R.RNr = b.RNr
+	join Zutat as Z on Z.ZNr = b.ZNr
+	where Z.ZName=@ingredient;
+	return @num
+end;
+
+select Z.ZName, isnull(b.Menge, 0), countRecipes(Z.ZName) as RecipeOccurance
+from Zutat as Z left join braucht as b 
+on Z.ZNr = b.ZNr
+left join Rezept as R
+on R.RNr = b.RNr
+where isnull(R.RDauer, 0) <= 40
+order by Z.ZName desc
+	
