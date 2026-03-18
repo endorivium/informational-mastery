@@ -1,0 +1,37 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+
+length = np.loadtxt('seeds_dataset.txt', usecols =(3)).tolist()
+width = np.loadtxt('seeds_dataset.txt', usecols =(4)).tolist()
+kernels = np.loadtxt('seeds_dataset.txt', usecols=(7)).tolist()
+kernelTypes = [1,2,3]
+
+def secEntry(e):
+    return e[1]
+
+def classify_by_nn(k, l, w, x, y, points, c):
+    distances = []
+    for idx, kernel in enumerate(points):
+        neighbor = [x[idx], y[idx]]
+        distances.append([kernel, math.dist([l,w], neighbor)])    
+    else:
+        distances.sort(key=secEntry)
+        distances = distances[:k]
+        kNN = []
+        for kt in c:
+            kNN.append([kt, sum(sub_li.count(kt) for sub_li in distances)])
+        else:
+            kNN.sort(key=secEntry, reverse=True)
+            return kNN[0][0]
+
+k = 10
+new_l = 5.5
+new_w = 3.3
+
+prediction = classify_by_nn(k, new_l, new_w, length, width, kernels, kernelTypes)
+
+plt.scatter(length+[new_l], width+[new_w], c=kernels+[prediction])
+plt.text(x=new_l, y=new_w, s=f"new point, class: {prediction}")
+plt.show()
+    
