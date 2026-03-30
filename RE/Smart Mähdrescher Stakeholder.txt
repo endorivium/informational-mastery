@@ -1,0 +1,12 @@
+Smart Mähdrescher Stakeholder
+
+Entwicklungsteam
+
+Service & Wartungstechniker
+
+Landwirte (Endnutzer)
+
+Partner: Zulieferer (Sensorik, Hardware; KI)
+
+Regulierungsbehörden (Datenschutz, Emissionen, Bodenschutz)
+

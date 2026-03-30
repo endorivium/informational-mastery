@@ -1,0 +1,29 @@
+Stakeholder Persona: Mähdrescher
+
+Name: Heinrich Ackermann
+Alter: 45 Jahre
+Studiengang: Agrarmanagement Bachelor
+Hintergrund:
+- Hof von Vater geerbt
+- kämpft mit Management seiner Felder, muss zur richtigen Zeit seine Felder ernten
+- durch unregelmäßige Witterungen in den letzten Jahren wird das zunehmen schwerer
+- zunehmend schwer Nachfolger und Mitarbeiter zu finden
+
+Bedürfnisse/Herausforderung:
+- Zunehmende Last auf Heinrich durch fehlende Mitarbeiter
+- Immer längere Arbeitsstunden um aufzuholen
+
+Motivation:
+- nicht total unfähig mit neuen Technologien, aber würde eine einfache Einarbeit präferieren
+
+Ziel:
+- Abnahme der Arbeitslast durch Automatisierung
+- Erhöhte Effizienz und Zuverlässigkeit beim Ernten/gute Ernte
+
+
+Auswirkung auf Mähdrescher:
+- leistungsstark
+- automatisiert
+- einfaches Einarbeiten
+
+
