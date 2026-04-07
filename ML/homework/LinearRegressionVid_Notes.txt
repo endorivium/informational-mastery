@@ -1,0 +1,26 @@
+distance from best fit line to observed values are called residuals or errors
+residuals will always add up to zero
+residuals squared: make all values positive, emphasize large deviations from best fit line
+sum of squared residuals/errors (SSE)
+goal of linear regression is to create model that minimizes SSE
+simple linear regression compares two models:
+- one where the independent variable does not exist (essentially the mean of those values)
+- and one that uses the best fit regression line
+if the regression line is horizontal, then it equals the mean and the independent
+variable does not matter in defining the dependent one, the best fit regression line
+does not tell us anything that the mean doesn't
+
+HW:
+1) taking the mean of all the grades, i would expect a 2.0
+2) it is the same thing
+3) 
+1.0 | 1.0
+3.0 | -1.0
+2.0 | 0
+1.3 | 0.7
+2.7 | -0.7
+sum = 0
+4) SSE or sum of squared errors is as the name suggests the sum of all errors squared
+it is used to compare different linear regression models of the same data set since
+the smaller the SSE, the better the model
+SSE: 1+9+4+1.69+7.29 = 22.98
