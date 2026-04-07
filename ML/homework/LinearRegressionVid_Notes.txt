@@ -1,3 +1,5 @@
+PART 1
+
 distance from best fit line to observed values are called residuals or errors
 residuals will always add up to zero
 residuals squared: make all values positive, emphasize large deviations from best fit line
@@ -24,3 +26,62 @@ sum = 0
 it is used to compare different linear regression models of the same data set since
 the smaller the SSE, the better the model
 SSE: 1+9+4+1.69+7.29 = 22.98
+
+PART 2
+
+bivariate statistics (two variables)
+value of one variable is function of other variable (y is x; y= f(x))
+value of dependent is function of the independent variable
+
+y = beta_0_ + beta_1_*x + e
+beta_0_ = y-intercept population parameter
+beta_1_ = slope population parameter
+e (written like element sign) = error term, unexplained variation in y
+
+Simple Linear Regression Equation: E(y) = beta_0_ + beta_1_ * x
+E meaning Expected value of y
+E(y) is mean of rexpected value of y for given val of x
+E(y) is not perfect and instead an approximation/ mean of a distribution,
+goal is to make the distribution be as small as possible
+
+GENERAL PATTERNS
+beta_1_ can be either 0, positive or negative, making the slope in term the same
+
+REGRESSION EQUATION WITH ESTIMATES
+if population parameters, beta0 and beta 1, are known, above equation could be used
+but usually, need to be estimated based on sample data
+y^ = b0 + b1*x ("y-hat")
+y-hat is point estimator of E(y) (mean of y for value x)
+idea is the same as before though
+
+HW:
+1) m is slope, b is y-intercept
+2) In the first both betas are known population params, in y^ those values are not known and need
+to be estimated based on sample data
+3)
+0: slope is zero, from solution: x value does not influence y
+positive: slope is positive, regression line goes upward, from solution: higher x > larger y
+negative: slope is negative, regression line goes downward, from solution: higher x > smaller y
+4) Sum of squared errors can be used to determine how well the regression fits the data
+The smaller the regression's SSE is in comparison to the mean of the data values, the better
+
+(furthermore, since E(y) is the mean of the distribution of y values at a certain x, the smaller the distribution the better the model)
+
+PART 3
+Least Squares Method: min[SUM](y_i_ - y^_i_)^2
+yi = observed value of dependent variable
+y^i = estimated (predicted) value of dependent variable
+goal: minimize sum of squared differences between observed and estimated
+
+Step 1: scatter plot (i.e. put data set into appropriate graph)
+Step 2: check if rough visual line is present (to determine if regression is suitable)
+Step 3: correlation coefficient (opt), determines relationship strength between y and x
+Step 4: get CENTROID via mean of x (independant) and mean of y (dependent) and put in graph
+> best fit regression line will/must pass through centroid
+Step 5: calculations
+b1 = sum of (x deviation from mean)*(y deviation from mean)/ sum of x deviation squared
+b0 = y mean - b1 * x mean
+
+interpretation: positive slope means increase else decrease
+intercept is not always applicable to real life at origin point if negative
+
