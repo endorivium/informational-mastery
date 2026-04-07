@@ -1,0 +1,63 @@
+Produkt: Winterjackenkollektion
+
+Übung Kano Modell:
+Basismerkmale:
+- isolieren (warm)
+- Schließmechanismus (Reißverschluss, Knöpfe, Klett)
+- Taschen (mind. 2)
+- Kapuze
+- versch. Größen
+- wasserfest/dicht
+- aerodynamisch
+
+Leistungsmerkmale:
+- mehr Taschen
+- langlebiges Material
+- gefüttert
+- Pelz
+- mehrere Einzelfarben
+- herausnehmbare Innenjacke
+- atmungsaktiv
+- Armtasche
+
+Begeisterungsmerkmale:
+- unnötig viele Taschen
+- Innenjacke mit Daumenschlitz
+- mehrfarbig
+- beidseitig benutzbare Jacke
+- Formanpassende Bundzüge
+- vollständig schließbare Jacke
+- Doppelverschluss bei Taschen
+- Doppeltaschen
+- abnehmbarer Pelz
+- abnehmbare Kapuze
+
+unerhebliche Merkmale:
+- dekorative Elemente (v.a. innen)
+- Achselöffnung
+
+Rückweisungsmerkmale:
+- Aufhängschlaufe
+- Echtpelz
+- Fake Pelz
+- unpassende Schnittform
+- Knopfverschluss
+
+Übung: GQM Modell
+B) Geschäftswert: One-Click-Checkout
+Ziel: Erfolgskontrolle der neuen Checkout Funktion, erhöhte Konversionsrate
+bessere Usability
+
+Question: 
+1) Benutzen unsere Nutzer das überhaupt?
+2) Vereinfacht bzw beschleunigt es den Kauf?
+3) Wird mehr als vor Einführung der Funktion gekauft?
+
+Metric:
+1) Interaktionen mit dem Feature zählen
+2) Durchschnittliche Dauer des Kaufablaufs
+3) 20% mehr Käufe
+
+Objekt, Zweck, Fokus, Stakeholder, Kontext
+Ableiten der Frage
+

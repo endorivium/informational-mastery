@@ -1,0 +1,13 @@
+
+Endliche Automaten (EA)
+Nichtdeterministische Automaten
+Deterministische Automaten
+reguläre Ausdrücke
+
+Kellerautomaten
+Turingmaschinen
+
+
+Chomsky Hierachie
+
+Chomsky Typ 3 (reguläre Sprachen) <=> EA
