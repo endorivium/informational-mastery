@@ -1,0 +1,9 @@
+Overwatch Team Comp
+Scope:
+> Nutzer kann nach Hero per Name suchen
+> Anzeigen von Hero Stats per Suchleiste oder allgemeiner Liste aller Heroes
+> Nutzer kann Team Comp abspeichern (persistente Speicherung) und diese auch wieder aufrufen
+
+Backend: C#
+Frontend: React mit Typescript
+Datenbank (MySQL, Postgres)
