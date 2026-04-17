@@ -1,0 +1,74 @@
+Smarter Mähdrescher
+- Sensoren zur Datenaufnahme (auf dem Feld)
+- Zeitplan Funktionalität
+- betreutes autonomes Fahren
+- zeitliche Einschätzung zur Ernte (wie lange braucht man)
+
+Aufg 1 
+
+System:
+- Datenverarbeitung
+- Zeitmessung
+- Mähdrescher
+- Kommunikation zwischen Vehikel
+- Farming Ranked/ Competitive Farming
+- Machine Learning für Ernte (optimale Zusammenstellung des Felds)
+
+
+Systemkontext:
+- Wetteransage
+- Lagerung der Ernte
+- TÜV
+- Wartung
+- GPS
+- Sensoren
+Personen:
+Service & Wartungstechniker
+Landwirte (Endnutzer)
+Partner: Zulieferer (Sensorik, Hardware; KI)
+Regulierungsbehörden (Datenschutz, Emissionen, Bodenschutz)
+
+Irrelevante Umgebung:
+- Nachfrage der Ernte
+
+Aug 2 Fünf Features
+
+Basis:
+> Ernte
+> Wetterdienstanbindung
+> Vorschläge zur Ernte
+> Datenauslesung über Dashboard oder ähnliches
+> Garantie
+ weitere:
+> Arbeitssicherheit
+> IT Sicherheit
+> Auto-Steer
+> Ertragskarten
+
+Leistung:
+> Elektro statt Benzin (Ladestation im Bundle)
+> Erweiterte Garantie
+> bequemer Sitz
+> Klimaanlage
+Begeisterung:
+> Infotainment System
+> Autonomes Fahren
+> Visuelle Darstellung des Feldes
+> Battle Pass
+> Highscore/ Ranked
+
+weitere:
+> V+KI Erkennung von Erntegut zur Leistungsoptimierung
+
+Aufg 3 Ermittlung von Anforderungen
+Brainstorming: grundlegender Konsens zur Funktionalität des Mähdreschers
+Anwender: Feldbeobachtung, Interview bzw Gruppendiskussion
+Regulierungsbehörden: Analyse von Dokumentation und ähnlichen Produkte, Wiederverwendung von Anforderungen
+Analyse von Konkurrenzprodukten für Basis, Leistung und Begeisterung
+Techniker: Interview um Komponente mit hohen Risiko festzustellen (was geht wie oft kaputt?)
+
+Aug 4 Use Case
+(siehe UseCase.jpeg)
+
+Use Cases von den anderen:
+> 

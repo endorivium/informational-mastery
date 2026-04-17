@@ -1,0 +1,10 @@
+Features
+
+1: Fremdkörpererkennung
+2: Abruf von Wetterinfo in 3s
+3: Mini-Kühlschrank kühlt Getränke auf 4°
+
+SysReq-001: Der Mähdrescher muss über ein Kamerasystem ein Fremdkörper erkennen können.
+Bei Erkennung eines Fremdkörpers muss der Mähdrescher das Dreschwerk abschalten und stoppen.
+SysReq-002: 
+SysReq-003: 
