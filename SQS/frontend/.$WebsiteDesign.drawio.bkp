@@ -1,0 +1,22 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="SfbJDq4VDPlJ53Y7aPzq">
+    <mxGraphModel dx="2020" dy="1227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HUpVsAMxH3im3VSABDYp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000,#39454E);strokeColor=#23445d;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="936" width="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="HUpVsAMxH3im3VSABDYp-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#081B2A,#343434);strokeColor=#23445d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="936" width="1470" x="225" as="geometry" />
+        </mxCell>
+        <mxCell id="HUpVsAMxH3im3VSABDYp-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Search" vertex="1">
+          <mxGeometry height="40" width="280" x="1380" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HUpVsAMxH3im3VSABDYp-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="1390" y="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
