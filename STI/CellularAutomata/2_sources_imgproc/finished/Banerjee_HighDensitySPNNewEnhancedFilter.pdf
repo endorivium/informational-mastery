@@ -9792,3 +9792,38 @@ trailer
 startxref
 3640665
 %%EOF
+9 0 obj
+<< /Contents [16 0 R 17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R] /Thumb 26 0 R /Type /Page /Resources << /ColorSpace << /CS0 [/Separation /Black /DeviceCMYK 27 0 R]>> /ExtGState << /GS1 28 0 R /GS0 29 0 R>> /ProcSet [/PDF /Text /ImageC] /Font << /TT1 30 0 R /TT2 31 0 R /TT0 32 0 R /C0_0 33 0 R /C2_0 34 0 R /F6 35 0 R>> /XObject << /Im0 36 0 R>>>> /CropBox [0 0 595.32 841.92] /Parent 5 0 R /Rotate 0 /MediaBox [0 0 595.32 841.92] /Annots [108 0 R 109 0 R 110 0 R 111 0 R 112 0 R 113 0 R 114 0 R 115 0 R 116 0 R 117 0 R 118 0 R 119 0 R 120 0 R 121 0 R 122 0 R 123 0 R 124 0 R 125 0 R 126 0 R 127 0 R 128 0 R 129 0 R 130 0 R 131 0 R 132 0 R 133 0 R 134 0 R 279 0 R]>>
+endobj
+278 0 obj
+<< /BaseFont /Helvetica /Type /Font /Subtype /Type1 /Encoding /WinAnsiEncoding>>
+endobj
+279 0 obj
+<< /Type /Annot /Subtype /FreeText /CreationDate (D:20260510162017) /Rect [321.3 784.9199969482 517.7900024414 818.32] /DA (/Helv 10 Tf 0 g) /Contents (does not use CA but has similar concept to\nmedian filter with window) /F 4 /Border [0 0 0] /Rotate 0 /AP << /N 280 0 R>>>>
+endobj
+280 0 obj
+<< /FormType 1 /Subtype /Form /Type /XObject /BBox [321.3 784.9199969482 517.7900024414 818.32] /Resources << /Font << /Helv 278 0 R>>>> /Matrix [1 0 0 1 -321.3 -784.9199969482] /Length 231>> stream
+q
+1 0 0 1 0 0 cm
+321.3 784.9199969482421 196.49000244140626 33.400003051757835 re W n
+BT
+0 g
+0 Tc /Helv 10 Tf
+321.3 808.3199999999999 Td (does not use CA but has similar concept to) Tj
+0 -13.5 Td (median filter with window) Tj
+ET
+Q
+endstream
+endobj
+xref
+9 1
+0003644332 00000 n
+278 3
+0003645035 00000 n
+0003645133 00000 n
+0003645426 00000 n
+trailer
+<< /Prev 3640665 /Size 281 /Root 1 0 R /Info 6 0 R /ID [(Fö/v*ùJä:ýÍ/e\(BO) (Q–«ô3>Ü o pWê9Š)]>>
+startxref
+3645884
+%%EOF
