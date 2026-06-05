@@ -1,0 +1,9 @@
+registration success
+login success
+refresh timer
+
+user clickt auf login und dann register weil kein account
+login view wechselt zu register view
+user kreiiert account -> register success zeigen, dann button zu login
+register view wechselt zu login view
+user loggt sich ein
