@@ -1,0 +1,52 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="vrsjcVwAxTMBfkw0NG5p">
+    <mxGraphModel dx="1414" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" value="i-1, j-1" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="i, j-1" vertex="1">
+          <mxGeometry height="80" width="80" x="110" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" value="i+1, j-1" vertex="1">
+          <mxGeometry height="80" width="80" x="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="i-1, j" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#99CCFF;strokeColor=#6c8ebf;" value="Center&lt;div&gt;Pixel&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="110" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="i+1, j" vertex="1">
+          <mxGeometry height="80" width="80" x="190" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" value="i-1, j+1" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="i, j+1" vertex="1">
+          <mxGeometry height="80" width="80" x="110" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-9" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" value="i+1, j+1" vertex="1">
+          <mxGeometry height="80" width="80" x="190" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-19" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="i, j-1" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-20" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="i-1, j" vertex="1">
+          <mxGeometry height="80" width="80" x="320" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-21" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#99CCFF;strokeColor=#6c8ebf;" value="Center&lt;div&gt;Pixel (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;i, j)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-22" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="i+1, j" vertex="1">
+          <mxGeometry height="80" width="80" x="480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3YdRGUZHD0mvnPbWPdY4-23" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="i, j+1" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
