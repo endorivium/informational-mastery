@@ -1,0 +1,7 @@
+IT Security Breaches
+- Shell-Schock: Bash-Vulnerability (2014) > Programming error in parser
+- Security Vulnerability BMW Connected Drive (2015) Jeep Cherokee (2015) > weakness in security concept
+- Bundestag-Hack (2015) > Pass-the-Hash Attack, circumvent password via hash
+- Locky Ransomware (2016) > Malware encrypted files
+- Meltdown and Spectre (2018) > architectural problems in hardware
+- Crowdstrike (2024) > update failure by endpoint security provide

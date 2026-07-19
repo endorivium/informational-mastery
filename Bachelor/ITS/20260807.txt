@@ -1,0 +1,6 @@
+IV
+- need randomness and start to encryption
+- if too short, then cycle is very short and IV will repeat often
+	-> hacker only needs to wait until package with same IV is passed
+
+- WPA > WPA2 changes

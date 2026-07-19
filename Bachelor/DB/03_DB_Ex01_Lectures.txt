@@ -1,0 +1,32 @@
+//order of table creation is important in cases of dependencies
+
+/* 
+// lecture table must be dropped first, since it references professor
+// dropping professor first would create an error since it has dependencies
+drop table lecture
+drop table professor
+*/
+
+//professor table needs to be created before lectures to create valid keys (id)
+create table professor(
+	id int identity(1,1) primary key not null,
+	name varchar(40) null,
+	office char(6) null
+)
+
+create table lecture(
+	id int identity(1,1) primary key not null,
+	name varchar(100) not null,
+	semester char(4) not null,
+	responsible_prof int references professor(id) not null,
+	unique(name, semester)
+)
+
+insert into professor (name, office) values ('HoKa', 'B1.18');
+insert into lecture (name, semester, responsible_prof) values ('DB', 'WS25', 1); //problem: how to get the id? search prof name? can apparently assign immediately afterwards
+
+select * from lecture
+select * from professor
+
+delete from lecture
+
