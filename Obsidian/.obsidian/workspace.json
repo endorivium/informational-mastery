@@ -30,9 +30,37 @@
               "icon": "lucide-file",
               "title": "Data Science for Business#"
             }
+          },
+          {
+            "id": "d60431772d5fddf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SwArb/Agentic Evolution Summary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agentic Evolution Summary"
+            }
+          },
+          {
+            "id": "1a5096645d08bd0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SwArb/Agentic Evolution Summary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agentic Evolution Summary"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -52,7 +80,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -152,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DS/Data Science for Business#.md",
+                "file": "SwArb/Agentic Evolution Summary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Data Science for Business#"
+              "title": "Outline"
             }
           }
         ],
@@ -166,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,16 +210,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "831b7d88127159d1",
+  "active": "1a5096645d08bd0b",
   "lastOpenFiles": [
-    "DB/Chapter 4 Relational Database Design.md",
+    "Pasted image 20261008183223.png",
+    "Pasted image 20261008183211.png",
+    "Pasted image 20261008182952.png",
+    "Pasted image 20261008182226.png",
+    "Pasted image 20261008165757.png",
+    "Images/Pasted image 20261008165744.png",
+    "SwArb/Agentic Evolution Summary.md",
+    "SwArb/Summary.md",
+    "Markdown Guide.md",
+    "SwArb/General Glossary.md",
+    "Notes.md",
     "DS/Data Science for Business#.md",
+    "SwArb",
+    "DB/Chapter 4 Relational Database Design.md",
     "KP/Resources.md",
     "KP/Lightning Round.md",
     "KP/Coursework/Presentation.md",
     "KP/Coursework/Coursework.md",
     "KP/Coursework/Coursework Documentation.md",
-    "Markdown Guide.md",
     "SYSE/Untitled.md",
     "image-url.md",
     "Untitled.canvas",
@@ -200,11 +242,6 @@
     "Images/Pasted image 20251229233256.png",
     "Images/Pasted image 20251104182733.png",
     "Images/Pasted image 20251105094313.png",
-    "Images/Pasted image 20251226003321.png",
-    "Images/Pasted image 20251226003504.png",
-    "Images/Pasted image 20251226003544.png",
-    "Images/Pasted image 20251229154221.png",
-    "Images/Pasted image 20251104140921.png",
     "SYSE",
     "KP/Coursework",
     "KP",
