@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV/Image Formation.md",
+                "file": "SwArb/Darwin Gödel Machine (DGM).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Image Formation"
+              "title": "Darwin Gödel Machine (DGM)"
             }
           }
         ],
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CV/Image Formation.md",
+                "file": "SwArb/Darwin Gödel Machine (DGM).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -172,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,27 +188,29 @@
   },
   "active": "2a9ebb168368d513",
   "lastOpenFiles": [
-    "Pasted image 20261013174343.png",
-    "Pasted image 20261013173821.png",
-    "Pasted image 20261013172201.png",
-    "Pasted image 20261013171950.png",
-    "Images/Pasted image 20261013171130.png",
-    "Images/Pasted image 20261013170324.png",
-    "Images/Pasted image 20261013165327.png",
-    "Images/Pasted image 20261013165225.png",
-    "CV/Image Formation.md",
+    "Pasted image 20261014173144.png",
+    "SwArb/Agentic Evolution Summary.md",
+    "SwArb/Darwin Gödel Machine (DGM).md",
     "CV/Terminology.md",
-    "Pasted image 20261013165240.png",
+    "CV/Image Formation.md",
+    "SwArb/Summary.md",
+    "SwArb/General Glossary.md",
+    "Pasted image 20261008165744.md",
+    "Images/Pasted image 20261008165744.png",
+    "Images/Pasted image 20251231234300.png",
+    "Images/Pasted image 20261008182226.png",
+    "Images/Pasted image 20261008182952.png",
+    "Images/Pasted image 20261008183211.png",
+    "Images/Pasted image 20261008183223.png",
+    "Images/Pasted image 20261013145359.png",
     "Images/Pasted image 20261013151959.png",
-    "Pasted image 20261013145353.png",
+    "Images/Pasted image 20261013165327.png",
+    "Images/Pasted image 20261013170324.png",
     "Markdown Guide.md",
     "Image Processing.md",
     "CV",
     "WS2025/DB/Chapter 4 Relational Database Design.md",
-    "SwArb/Agentic Evolution Summary.md",
     "WS2025",
-    "SwArb/Summary.md",
-    "SwArb/General Glossary.md",
     "Notes.md",
     "DS/Data Science for Business#.md",
     "SwArb",
