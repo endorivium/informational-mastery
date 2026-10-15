@@ -58,3 +58,21 @@ Sources: [Teledyne CCD vs CMOS](https://www.teledynevisionsolutions.com/learn/le
 - *x* and *y* describe the **optical mapping of an object point to an image point**
 - pinhole camera creates an inverted image
 - z-axis of camera runs runs through center of pinhole and away from camera
+- very limited pratical use due to low light yield
+## Imaging with Lenses
+### Single Lense
+![[Pasted image 20261015144452.png]]
+- allows for the capture of more light beams per point on focal plane
+### Thin Lens Model
+![[Pasted image 20261015144658.png]]
+- in this context, "thin" means that the focal length f is significantly greater than its thickness
+## Bundle  Limitation
+![[Pasted image 20261015151051.png]]
+
+## Optical Paths
+![[Pasted image 20261015151121.png]]
+![[Pasted image 20261015151210.png]]
+![[Pasted image 20261015152840.png]]
+
+## Selecting a Lens
+![[Pasted image 20261015153857.png]]
