@@ -1,4 +1,4 @@
-[[General Glossary]]
+[[Glossary]]
 [Research Paper](file:///D:/Users/Julia%20Ihrenberger\Documents/1_Studium_Informatik/informational-mastery/SwArb/LinEtAl_AgenticEvolution.pdf)
 
 <span style="color:rgb(146, 208, 80)">Evolution</span>: `continual learning for LLM systems during deployment`

@@ -10,4 +10,4 @@ Various architectures have been proposed for how a self-evolving agent can be bu
 
 The goal is to analyze popular architectures for such agents (e.g., the Darwin Gödel Machine and A-Evolve) and identify the key components that recur across them, what state gets modified (source code vs. persistent artifacts like tools/knowledge/tests), what proposes a change, and what decides whether a proposed change is kept or discarded.
 
-[[General Glossary]]
+[[Glossary]]
