@@ -1,5 +1,5 @@
-[[Glossary]]
-[Research Paper](file:///D:/Users/Julia%20Ihrenberger\Documents/1_Studium_Informatik/informational-mastery/SwArb/ZhangEtAl_DarwinGoedelMachine.pdf)
+Zhang et al.
+[Research Paper](file:///D:/Users/Julia%20Ihrenberger\Documents/1_Studium_Informatik/informational-mastery/SwArb/finished/ZhangEtAl_DarwinGoedelMachine.pdf)
 
 **Short Summary**:
 ![[Pasted image 20261014173144.png]]

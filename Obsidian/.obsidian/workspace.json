@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwArb/Glossary.md",
+                "file": "SwArb/Papers/Survey of SE Agents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glossary"
+              "title": "Survey of SE Agents"
             }
           }
         ],
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 265.5
   },
   "right": {
     "id": "cfb1c133296211b5",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwArb/Glossary.md",
+                "file": "SwArb/Papers/Survey of SE Agents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -173,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,7 +189,19 @@
   },
   "active": "0430756069b0724e",
   "lastOpenFiles": [
-    "SwArb/Darwin Gödel Machine (DGM).md",
+    "SwArb/Papers/Comprehensive Survey of SE-AI Agents.md",
+    "SwArb/Papers/Darwin Gödel Machine (DGM).md",
+    "SwArb/Papers/Agentic Evolution Summary.md",
+    "SwArb/Papers/Survey of SE Agents.md",
+    "SwArb/Articles/Architecture of an LLM (simplified).md",
+    "SwArb/Articles/Beyond Fine-Tuning - Architecting the Self-Evolving Agent.md",
+    "SwArb/(WIP) Outline.md",
+    "SwArb/Summary.md",
+    "SwArb/Articles",
+    "SwArb/Glossary.md",
+    "SwArb/Papers",
+    "Images/Pasted image 20261019161616.png",
+    "Pasted image 20261019161545.png",
     "Concepts and Terminology/(WIP) Distributed Computing.md",
     "Concepts and Terminology/(WIP) Race Condition.md",
     "Concepts and Terminology",
@@ -202,14 +215,9 @@
     "Images/Pasted image 20261015161133.png",
     "Images/Pasted image 20261015160820.png",
     "Images/Pasted image 20261015160809.png",
-    "Images/Pasted image 20261015160420.png",
-    "Images/Pasted image 20261015160310.png",
     "CV/Image Formation.md",
     "Markdown Guide.md",
-    "SwArb/Agentic Evolution Summary.md",
     "CV/Terminology.md",
-    "SwArb/Summary.md",
-    "SwArb/Glossary.md",
     "Pasted image 20261008165744.md",
     "Image Processing.md",
     "CV",
@@ -223,16 +231,10 @@
     "WS2025/KP/Coursework/Presentation.md",
     "WS2025/KP/Coursework/Coursework.md",
     "WS2025/KP/Coursework/Coursework Documentation.md",
-    "SYSE/Untitled.md",
-    "image-url.md",
     "Untitled.canvas",
     "DS",
     "Untitled 1.base",
     "Untitled.base",
-    "SYSE",
-    "WS2025/KP/Coursework",
-    "WS2025/KP",
-    "DB/Untitled.md",
-    "INF-M/SysE/02 System Thinking.md"
+    "SYSE"
   ]
 }

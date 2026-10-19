@@ -1,5 +1,5 @@
-[[Glossary]]
-[Research Paper](file:///D:/Users/Julia%20Ihrenberger\Documents/1_Studium_Informatik/informational-mastery/SwArb/LinEtAl_AgenticEvolution.pdf)
+Lin et al.
+[Research Paper](file:///D:/Users/Julia%20Ihrenberger\Documents/1_Studium_Informatik/informational-mastery/SwArb/finished/LinEtAl_AgenticEvolution.pdf)
 
 <span style="color:rgb(146, 208, 80)">Evolution</span>: `continual learning for LLM systems during deployment`
 <span style="color:rgb(146, 208, 80)">Evolution Scaling Hypothesis</span>: `the capacity for adaptation—the achievable performance frontier of evolution—scales with the compute allocated to the evolution process`
