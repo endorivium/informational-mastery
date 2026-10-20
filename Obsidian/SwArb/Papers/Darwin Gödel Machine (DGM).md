@@ -1,7 +1,16 @@
-Zhang et al. (29 May 2025 | lastrevised: 12 Mar 2026)
+Jenny Zhang et al. (29 May 2025 | lastrevised: 12 Mar 2026)
+[Suwandi Article](https://richardcsuwandi.github.io/blog/2025/dgm/)
+[Patel LinkedIn Article](https://www.linkedin.com/pulse/what-darwin-gödel-machine-agent-rewrote-its-own-code-learned-patel-o7e1c/)
 
 <mark style="background: #FFB86CA6;">Note: check between revisions</mark>
+# Notes
+- an AI agents **tools** are not considered part of its codebase, they are more like *modular, external instruction and knowledge packages* that the agent loads dynamically
+- an AI agent's **code base** refers to its source that runs the LLM, i.e. the *surrounding software architecture* which determines things such as tool call execution, file-handling workflows, patch-validation logic, etc
+- DGM agents *modified their source code*, e.g. adding patch-validation logic (needed functions, when to run, etc), modifying and creating tools, testing functions, the way it replaces strings, message summarization (list based on *DGM on SWE-bench*), FM usage workflow, i.e. how it interacts and functions
+- In DGM, agent appears to be one monolith that includes everything, meaning it does not modularize tools into their own files
+- DGM does not retrain/alter underlying LLM model, base model is frozen
 
+# Paper Summary
 **Short Summary**:
 ![[Pasted image 20261014173144.png]]
 

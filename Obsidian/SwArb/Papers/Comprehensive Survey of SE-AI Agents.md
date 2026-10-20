@@ -1,4 +1,4 @@
-Fang et al. (16 Jan 2026)
+Jinyuan Fang et al. (16 Jan 2026)
 
 **Short Summary**: defines self-evolving AI agents, describes their anatomy and proposes a framework for multi-agent self-evolving
 

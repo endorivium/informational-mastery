@@ -5,4 +5,12 @@ Making something amortizable essentially means that there are many cheap operati
 
 [Context Saturation](https://www.emergentmind.com/topics/context-saturation) “denotes critical regimes in which a structure, representation, or system reaches a maximal or threshold state—either minimizing a form of redundancy or maximizing the use of capacity—such that any further local perturbation induces a global qualitative change”.
 
+[Context Window](https://www.mindstudio.ai/blog/context-rot-ai-coding-agents-explained) is a fixed block of token capacity that holds everything the model can "see" at once and work with, containing e.g. the system prompt, config instructions, message history, response history, files, code snippets, etc. The AI agent repeatedly reads this window during task execution and bases its next word prediction on it.
+
+[Context Rot](https://www.mindstudio.ai/blog/context-rot-ai-coding-agents-explained) is the congestion of the context window with low-quality and contradictory content (i.e. noise) that accumulates over time and degrades the quality of the output by burying the relevant information in contradictions. System prompt is diluted and loses weight.
+
 [RAG](https://medium.com/@thisiskuhan/into-the-rag-verse-the-origin-and-the-why-0b80350d1e17) (Retrieval-Augmented Generation) *retrieves* content relevant to a query from a knowledge base and passes it as part of the prompt to an LLM, which then *augments* the given information and *generates* a human-like response.
+
+[[AI Agents]] are essentially augmented LLMs that *can take action in the real world* via calls to available tools, utilizing a *loop* that runs until task completion.
+
+Agent Topology defines how agents in a system are organized and communicate within it (Gao et al. 2026)

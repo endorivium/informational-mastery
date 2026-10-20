@@ -1,11 +1,11 @@
-Lin et al. (30 Jan 2026 | lastrevised: 13 Mar 2026)
-
+Minhua Lin et al. (30 Jan 2026 | lastrevised: 13 Mar 2026)
+[GitHub](https://github.com/A-EVO-Lab/a-evolve)
 <mark style="background: #FFB86CA6;">Note: check between revisions</mark>
 
 <span style="color:rgb(146, 208, 80)">Evolution</span>: `continual learning for LLM systems during deployment`
 <span style="color:rgb(146, 208, 80)">Evolution Scaling Hypothesis</span>: `the capacity for adaptation—the achievable performance frontier of evolution—scales with the compute allocated to the evolution process`
 
-**Short Summary**: The *train deploy environment gap* necessitates an evolution of the LLM during deployment or it will become obsolete with time and fail at its tasks. Previous evolution methods are too static and heuristic, agentic evolution proposes the usage of agents within the evolutionary process via an explicit *evolver agent*, a *goal-directed optimizer* who diagnoses necessary changes, autonomously *plans those changes and creates updates to both the parametric backbone and the persistent artifact state*.
+**Short Summary**: The *train deploy environment gap* necessitates an evolution of the LLM during deployment or it will become obsolete with time and fail at its tasks. Previous evolution methods are too static and heuristic, agentic evolution proposes the usage of agents within the evolutionary process via an explicit *evolver agent*, a *goal-directed optimizer* who diagnoses necessary changes, autonomously *plans those changes and creates updates to both the parametric backbone and the persistent artifact state*. It does not evolve an agent's own codebase and instead optimizes its workspace files (prompts, skills, memory), allowing for automatic harness engineering. A-Evolve presents an infrastructure that "evolves any agent, across any domain, using any evolution algorithm".
 
 ## Motivation
 -  due to the <span style="color:rgb(146, 208, 80)">train-deploy environment gap</span>, `purely static models inevitably degrade or fail under prolonged deployment` [1]
