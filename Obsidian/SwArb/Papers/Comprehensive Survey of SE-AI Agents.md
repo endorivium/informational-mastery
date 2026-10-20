@@ -1,5 +1,4 @@
-Fang et al.
-[Research Paper](file:///D:/Users/Julia%20Ihrenberger\Documents/1_Studium_Informatik/informational-mastery/SwArb/finished/FangEtAl_ComprehensiveSurveySelfEvolvingAIAgents.pdf)
+Fang et al. (16 Jan 2026)
 
 **Short Summary**: defines self-evolving AI agents, describes their anatomy and proposes a framework for multi-agent self-evolving
 

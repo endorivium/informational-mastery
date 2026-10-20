@@ -1,5 +1,6 @@
-Zhang et al.
-[Research Paper](file:///D:/Users/Julia%20Ihrenberger\Documents/1_Studium_Informatik/informational-mastery/SwArb/finished/ZhangEtAl_DarwinGoedelMachine.pdf)
+Zhang et al. (29 May 2025 | lastrevised: 12 Mar 2026)
+
+<mark style="background: #FFB86CA6;">Note: check between revisions</mark>
 
 **Short Summary**:
 ![[Pasted image 20261014173144.png]]

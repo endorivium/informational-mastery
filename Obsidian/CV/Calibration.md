@@ -4,6 +4,13 @@
 | ------------------------------------ | ------------------------------------ |
 | ![[Pasted image 20261015154239.png]] | ![[Pasted image 20261015154249.png]] |
 ## Mapping 3D - 2D
+[Article](https://medium.com/@aakhv110/understanding-3d-to-2d-camera-projection-concept-85b6e9602388)
+- see [[#Calibration Matrix]] for **K**
+- M is fixed
+- R is rotation of the world coord system in relation to the camera coord system (based on camera coord sys, how is the world coord sys rotated away from it)
+- t is translation of the camera in relation to world coord origin (how far is it from world center)
+- note: world coordinate system is at optical center of camera, then the two sys overlap and R is 3x3 Identity matrix and translation is zero vector
+- after calculation, needs to divide by z to get real pixel coords (which is just x/y)
 ![[Pasted image 20261015161641.png]]
 - **Homogeneous Coordinates** come from projective geometry and include the usage of an extra dimension called W, the "projective space" ([article](https://www.tomdalling.com/blog/explaining-homogenous-coordinates-and-projective-geometry/))
 - coordinates in this projective space are called homogeneous coordinates
@@ -37,6 +44,7 @@
 - f is focal length, xyz are coordinates, p_u_/p_v_ is principal point to shift xyz into uv coord system
 ### Calibration Matrix
 - collects intrinsic params![[Pasted image 20261015160310.png]]
-
+- fx/y is focal length divided by pixel size
+- pu/v is half width/height of sensor size
 ## Extrinsic
 - change when camera is moved (e.g. position and orientation of camera (=**pose**))![[Pasted image 20261015161602.png]]
