@@ -1,6 +1,6 @@
-Jenny Zhang et al. (29 May 2025 | lastrevised: 12 Mar 2026)
-[Suwandi Article](https://richardcsuwandi.github.io/blog/2025/dgm/)
-[Patel LinkedIn Article](https://www.linkedin.com/pulse/what-darwin-gödel-machine-agent-rewrote-its-own-code-learned-patel-o7e1c/)
+Jenny Zhang et al. (29 May 2025 | 12 Mar 2026)
+[arXiv:2505.22954v3](https://arxiv.org/abs/2505.22954v3)
+[Suwandi Article](https://richardcsuwandi.github.io/blog/2025/dgm/) | [Patel LinkedIn Article](https://www.linkedin.com/pulse/what-darwin-gödel-machine-agent-rewrote-its-own-code-learned-patel-o7e1c/)
 
 <mark style="background: #FFB86CA6;">Note: check between revisions</mark>
 # Notes

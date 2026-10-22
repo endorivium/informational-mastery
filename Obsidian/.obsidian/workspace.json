@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0430756069b0724e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SwArb/Papers/(A-Evolve) Agentic Evolution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "(A-Evolve) Agentic Evolution"
-            }
-          },
-          {
             "id": "33353035230d07de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwArb/Papers/Self-Improving Coding Agent (SICA).md",
+                "file": "SwArb/(WIP) Outline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Self-Improving Coding Agent (SICA)"
+              "title": "(WIP) Outline"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,22 +172,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "33353035230d07de",
+  "active": "4909c3ed0e471022",
   "lastOpenFiles": [
-    "SwArb/Papers/Darwin Gödel Machine (DGM).md",
-    "SwArb/Papers/Self-Improving Coding Agent (SICA).md",
+    "SwArb/Research Question.md",
+    "SwArb/(WIP) Outline.md",
+    "SwArb/Papers/2025-10 Huxley-Gödel Machine.md",
+    "Images/Pasted image 20261021204455.png",
+    "Images/Pasted image 20261021185309.png",
+    "Images/Pasted image 20261021184238.png",
+    "SwArb/Papers/2026-01 Agentic Evolution (A-Evolve).md",
+    "SwArb/(1) Table of Contents.md",
+    "SwArb/Papers/2025-08 Comprehensive Survey of SE-AI Agents.md",
+    "SwArb/Papers/2025-07 Survey of SE Agents.md",
+    "SwArb/Papers/2025-05 Darwin Gödel Machine (DGM).md",
+    "SwArb/Papers/2025-04 Self-Improving Coding Agent (SICA).md",
     "SwArb/Articles/AI Agents.md",
     "SwArb/Papers/A-Evolve-Training.md",
-    "SwArb/Papers/(A-Evolve) Agentic Evolution.md",
-    "SwArb/Papers/Comprehensive Survey of SE-AI Agents.md",
-    "SwArb/Papers/Survey of SE Agents.md",
-    "SwArb/Research Question.md",
     "SwArb/Glossary.md",
     "Pasted image 20261020160201.png",
     "Images/Pasted image 20261020083439.png",
     "CV/Calibration.md",
     "Markdown Guide.md",
-    "SwArb/(WIP) Outline.md",
     "Images/Pasted image 20261020083828.png",
     "SwArb/Articles/Architecture of an LLM (simplified).md",
     "SwArb/Articles/Beyond Fine-Tuning - Architecting the Self-Evolving Agent.md",
@@ -216,9 +206,6 @@
     "Concepts and Terminology.md",
     "Images/Pasted image 20261015155444.png",
     "Images/Pasted image 20261015161641.png",
-    "Images/Pasted image 20261015161602.png",
-    "Images/Pasted image 20261015161239.png",
-    "Images/Pasted image 20261015161220.png",
     "CV/Image Formation.md",
     "CV/Terminology.md",
     "Pasted image 20261008165744.md",
@@ -227,10 +214,7 @@
     "WS2025/DB/Chapter 4 Relational Database Design.md",
     "WS2025",
     "Notes.md",
-    "DS/Data Science for Business#.md",
     "SwArb",
-    "WS2025/KP/Resources.md",
-    "WS2025/KP/Lightning Round.md",
     "Untitled.canvas",
     "DS",
     "Untitled 1.base",

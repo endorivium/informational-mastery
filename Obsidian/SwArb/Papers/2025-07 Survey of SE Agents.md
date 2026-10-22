@@ -1,4 +1,4 @@
-Huan-ang Gao et al. (Jan 2026)
+Huan-ang Gao et al. (28 Jul 2025 | 16 Jan 2026) | [arXiv:2507.21046v4](https://arxiv.org/abs/2507.21046v4)
 [Research Paper](file:///D:/Users/Julia%20Ihrenberger\Documents/1_Studium_Informatik/informational-mastery/SwArb/finished/GaoEtAl_SurveySelfEvolvingAgentsWhatWhenHowWhere.pdf)
 
 **Short Summary**: review of SE agents organized around three dimension (what/when/how to evolve)![[Pasted image 20261020083828.png]]
