@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwArb/(WIP) Outline.md",
+                "file": "DS/Data Science for Business.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(WIP) Outline"
+              "title": "Data Science for Business"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 230.5
   },
   "right": {
     "id": "cfb1c133296211b5",
@@ -172,23 +172,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "4909c3ed0e471022",
+  "active": "33353035230d07de",
   "lastOpenFiles": [
-    "SwArb/Research Question.md",
+    "DS/Data Manipulation with Pandas.md",
+    "DS/Data Science for Business.md",
+    "Concepts and Terminology/General.md",
+    "Concepts and Terminology/LLM Concepts.md",
+    "Concepts and Terminology/(WIP) Race Condition.md",
+    "SwArb/Articles/AI Agents.md",
+    "SwArb/Notes 22 Oct 2026.md",
     "SwArb/(WIP) Outline.md",
+    "SwArb/Papers/2025-05 Darwin Gödel Machine (DGM).md",
+    "SwArb/(1) Table of Contents.md",
+    "SwArb/Research Question.md",
     "SwArb/Papers/2025-10 Huxley-Gödel Machine.md",
     "Images/Pasted image 20261021204455.png",
     "Images/Pasted image 20261021185309.png",
     "Images/Pasted image 20261021184238.png",
     "SwArb/Papers/2026-01 Agentic Evolution (A-Evolve).md",
-    "SwArb/(1) Table of Contents.md",
     "SwArb/Papers/2025-08 Comprehensive Survey of SE-AI Agents.md",
     "SwArb/Papers/2025-07 Survey of SE Agents.md",
-    "SwArb/Papers/2025-05 Darwin Gödel Machine (DGM).md",
     "SwArb/Papers/2025-04 Self-Improving Coding Agent (SICA).md",
-    "SwArb/Articles/AI Agents.md",
     "SwArb/Papers/A-Evolve-Training.md",
-    "SwArb/Glossary.md",
     "Pasted image 20261020160201.png",
     "Images/Pasted image 20261020083439.png",
     "CV/Calibration.md",
@@ -200,8 +205,6 @@
     "SwArb/Papers",
     "Images/Pasted image 20261019161616.png",
     "Pasted image 20261019161545.png",
-    "Concepts and Terminology/(WIP) Distributed Computing.md",
-    "Concepts and Terminology/(WIP) Race Condition.md",
     "Concepts and Terminology",
     "Concepts and Terminology.md",
     "Images/Pasted image 20261015155444.png",
@@ -211,9 +214,7 @@
     "Pasted image 20261008165744.md",
     "Image Processing.md",
     "CV",
-    "WS2025/DB/Chapter 4 Relational Database Design.md",
     "WS2025",
-    "Notes.md",
     "SwArb",
     "Untitled.canvas",
     "DS",
