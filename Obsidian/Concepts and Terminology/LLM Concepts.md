@@ -13,4 +13,4 @@ Making something amortizable essentially means that there are many cheap operati
 
 [[AI Agents]] are essentially augmented LLMs that *can take action in the real world* via calls to available tools, utilizing a *loop* that runs until task completion.
 
-Agent Topology defines how agents in a system are organized and communicate within it (Gao et al. 2026)
+**Agent Topology** defines how agents in a system are organized and communicate within it (Gao et al. 2026)
