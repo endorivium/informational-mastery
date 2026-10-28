@@ -36,3 +36,6 @@
 - **Tool Use**: in coding context, e.g. file system access (read-write), terminal execution (shell cmds, install pckgs, exec scripts), web search, code execution, browser control, external APIs
 - **planning layer**: task decomposition, dependency identification, sequence of steps
 - **execution loop**: write/modify code, run code/tests on code, read output, evaluate
+
+# Agent Harness vs Agent Framework
+[Article](https://www.truefoundry.com/blog/agent-harness-vs-agent-framework-whats-actually-different)
