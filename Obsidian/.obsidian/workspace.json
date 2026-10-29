@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwArb/Articles/AI Agents.md",
+                "file": "SLP/2026-10-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Agents"
+              "title": "2026-10-29"
             }
           }
         ],
@@ -189,13 +189,14 @@
   },
   "active": "ee0ca890ac7701ef",
   "lastOpenFiles": [
+    "SwArb/Articles/AI Agents.md",
+    "SLP/2026-10-29.md",
     "SwArb/Articles/Architecture of an LLM (simplified).md",
     "DS/Data Manipulation with Pandas.md",
     "DS/Data Science for Business.md",
     "Concepts and Terminology/General.md",
     "Concepts and Terminology/LLM Concepts.md",
     "Concepts and Terminology/(WIP) Race Condition.md",
-    "SwArb/Articles/AI Agents.md",
     "SwArb/Notes 22 Oct 2026.md",
     "SwArb/(WIP) Outline.md",
     "SwArb/Papers/2025-05 Darwin Gödel Machine (DGM).md",
@@ -227,7 +228,6 @@
     "CV/Image Formation.md",
     "CV/Terminology.md",
     "Pasted image 20261008165744.md",
-    "Image Processing.md",
     "CV",
     "WS2025",
     "SwArb",
