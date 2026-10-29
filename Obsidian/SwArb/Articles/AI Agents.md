@@ -39,3 +39,21 @@
 
 # Agent Harness vs Agent Framework
 [Article](https://www.truefoundry.com/blog/agent-harness-vs-agent-framework-whats-actually-different)
+
+An **agent framework** gives you the primitives to build an agent: nodes, edges, state, and roles. You write the control flow. An **agent harness** is the finished runtime: the loop already works, and it handles context, sandboxing, approvals, and session state for you.
+
+The simplest way to think about it:
+• **Frameworks are for building agents.** You define the flow and assemble the pieces.
+• **Harnesses are for running them.** The core loop and operational machinery are already built in.
+# Agent Skills vs Tools
+[Article](https://atlan.com/know/ai-agent/ai-agent-skills/agent-skills-vs-tools/)
+
+A **tool** is a *single, deterministic function call*: one input, one output, no judgment involved. An **agent skill** is composed *procedural knowledge that decides which tools to call, in what order, and why*, the layer that manages a tool catalog whose every schema loads into context on every turn. Atlan's own MCP server is one concrete tool surface a skill's sequencing logic calls into, but neither a tool's schema nor a skill's instructions certify that what comes back is current or trustworthy, that check happens one layer down, in the context layer underneath both.
+
+Core Components:
+1. Tool: a single, deterministic function call with one input and one output
+2. Skill: composed procedural knowledge that decides which tools to call, in what order, and why
+3. Token cost: every available tool loads its full schema each turn; a skill loads its body only when triggered
+4. Shared gap: neither a tool schema nor skill instructions certify that returned data is current
+
+further articles: [Distinction](https://www.arcade.dev/blog/what-are-agent-skills-and-tools/) 
