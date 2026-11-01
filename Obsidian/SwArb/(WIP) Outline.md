@@ -15,3 +15,6 @@
 	1. Clade-Level Metaproductivity (CMP)
 6. Safety and Security of SE Agents
 7. Conclusion
+
+- section about selection of architectures: why were they chosen, what separates them, etc
+- small note about validity of benchmarks as measurement

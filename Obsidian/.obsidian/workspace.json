@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts and Terminology/Regex.md",
+                "file": "SwArb/(WIP) Outline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regex"
+              "title": "(WIP) Outline"
             }
           }
         ],
@@ -203,9 +203,9 @@
   },
   "active": "983f5cdb50dc4980",
   "lastOpenFiles": [
+    "Concepts and Terminology/Regex.md",
     "Pasted image 20261101164049.png",
     "SwArb/Papers/2026-01 Agentic Evolution (A-Evolve).md",
-    "Concepts and Terminology/Regex.md",
     "SwArb/Articles/AI Agents.md",
     "SwArb/Research Question.md",
     "SLP/2026-10-29.md",
@@ -241,7 +241,6 @@
     "Concepts and Terminology",
     "Concepts and Terminology.md",
     "Images/Pasted image 20261015155444.png",
-    "Images/Pasted image 20261015161641.png",
     "CV",
     "WS2025",
     "SwArb",
