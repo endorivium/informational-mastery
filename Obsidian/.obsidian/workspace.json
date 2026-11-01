@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwArb/Papers/2026-01 Agentic Evolution (A-Evolve).md",
+                "file": "Concepts and Terminology/Regex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01 Agentic Evolution (A-Evolve)"
+              "title": "Regex"
             }
           }
         ],
@@ -203,8 +203,10 @@
   },
   "active": "983f5cdb50dc4980",
   "lastOpenFiles": [
-    "SwArb/Articles/AI Agents.md",
+    "Pasted image 20261101164049.png",
     "SwArb/Papers/2026-01 Agentic Evolution (A-Evolve).md",
+    "Concepts and Terminology/Regex.md",
+    "SwArb/Articles/AI Agents.md",
     "SwArb/Research Question.md",
     "SLP/2026-10-29.md",
     "SLP/Project Notes.md",
@@ -240,8 +242,6 @@
     "Concepts and Terminology.md",
     "Images/Pasted image 20261015155444.png",
     "Images/Pasted image 20261015161641.png",
-    "CV/Image Formation.md",
-    "CV/Terminology.md",
     "CV",
     "WS2025",
     "SwArb",
