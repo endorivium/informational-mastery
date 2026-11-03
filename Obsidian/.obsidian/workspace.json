@@ -1,56 +1,37 @@
 {
   "main": {
-    "id": "f19e995163583ec8",
+    "id": "b859651665ac7ff4",
     "type": "split",
     "children": [
       {
-        "id": "7666898ae687a651",
+        "id": "8cc890092fd3f482",
         "type": "tabs",
         "children": [
           {
-            "id": "33353035230d07de",
+            "id": "db01ca4acf1562fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SLP/Paper Notes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Paper Notes"
-            }
-          },
-          {
-            "id": "abbe28a6a8890376",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SLP/Paper Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Paper Notes"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8308969b9d6fa849",
+    "id": "4e255a2e8c35e490",
     "type": "split",
     "children": [
       {
-        "id": "8c3460bcc98760d7",
+        "id": "cfa53e6639fa0bb2",
         "type": "tabs",
         "children": [
           {
-            "id": "4909c3ed0e471022",
+            "id": "8f4c271faf954961",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,7 +46,7 @@
             }
           },
           {
-            "id": "55d0e5a323281ecb",
+            "id": "836526280acb31a3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -82,11 +63,14 @@
             }
           },
           {
-            "id": "7c2167315d5a9179",
+            "id": "f76b129de81a3100",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -95,25 +79,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "cfb1c133296211b5",
+    "id": "f9066d28a41606fb",
     "type": "split",
     "children": [
       {
-        "id": "476d74abfdcf9ef6",
+        "id": "0604a754b1393545",
         "type": "tabs",
         "children": [
           {
-            "id": "511c7231071b6ddd",
+            "id": "9efd1add1d46ecb2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KP/Coursework.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -121,16 +104,15 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Coursework"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "fd6745abcc80ae09",
+            "id": "a4ac10d62960d983",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CV/Calibration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -139,13 +121,13 @@
             }
           },
           {
-            "id": "91bdce2bb0931b46",
+            "id": "5d340be985a62453",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -154,12 +136,11 @@
             }
           },
           {
-            "id": "b4c532d4d9ccc4b4",
+            "id": "3a757d7013db8fa0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwArb/Papers/Survey of SE Agents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -168,12 +149,11 @@
               "title": "Outline"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -187,54 +167,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "abbe28a6a8890376",
-  "lastOpenFiles": [
-    "SLP/Project Notes.md",
-    "SLP/Paper Notes.md",
-    "SLP/2026-10-29.md",
-    "SwArb/Papers/(WIP) Mendel Goedel Machine.md",
-    "SwArb/Papers/(WIP) Automated Design of Agentic Systems.md",
-    "SwArb/Papers/(WIP) Self-Evolving Coding Agents.md",
-    "SwArb/Papers/(WIP) SE Agents Failure Repair Generalization.md",
-    "SwArb/Papers/(WIP) 2026-08 Evo-Harness.md",
-    "SwArb/Papers/(WIP) 2026 Misevolution.md",
-    "SwArb/Papers/2025-10 Huxley-Gödel Machine.md",
-    "SwArb/Papers/2026-01 Agentic Evolution (A-Evolve).md",
-    "Markdown Guide.md",
-    "SwArb/Papers/2025-08 Comprehensive Survey of SE-AI Agents.md",
-    "SwArb/Papers/2025-07 Survey of SE Agents.md",
-    "SwArb/Papers/2025-04 Self-Improving Coding Agent (SICA).md",
-    "SwArb/Papers/2025-05 Darwin Gödel Machine (DGM).md",
-    "DS/Data Science for Business.md",
-    "SwArb/(WIP) Outline.md",
-    "Concepts and Terminology/Regex.md",
-    "Images/Pasted image 20261101164049.png",
-    "SwArb/Articles/AI Agents.md",
-    "SwArb/Research Question.md",
-    "SwArb/Articles/Architecture of an LLM (simplified).md",
-    "DS/Data Manipulation with Pandas.md",
-    "Concepts and Terminology/General.md",
-    "Concepts and Terminology/LLM Concepts.md",
-    "Concepts and Terminology/(WIP) Race Condition.md",
-    "Images/Pasted image 20261021204455.png",
-    "Images/Pasted image 20261021185309.png",
-    "Images/Pasted image 20261021184238.png",
-    "Pasted image 20261020160201.png",
-    "Images/Pasted image 20261020083439.png",
-    "Images/Pasted image 20261020083828.png",
-    "SwArb/Articles",
-    "SwArb/Papers",
-    "Images/Pasted image 20261019161616.png",
-    "Pasted image 20261019161545.png",
-    "Concepts and Terminology",
-    "Images/Pasted image 20261015155444.png",
-    "CV",
-    "WS2025",
-    "SwArb",
-    "Untitled.canvas",
-    "DS",
-    "Untitled 1.base",
-    "Untitled.base",
-    "SYSE"
-  ]
+  "active": "db01ca4acf1562fc",
+  "lastOpenFiles": []
 }
