@@ -47,3 +47,6 @@ Tasks
 > Quotes/ Blockquotes
 
 [^1]: footnote
+
+| Heading | Heading |
+|-----|
