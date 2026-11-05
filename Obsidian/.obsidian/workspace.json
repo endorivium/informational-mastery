@@ -11,10 +11,14 @@
             "id": "db01ca4acf1562fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SLP/Project Notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Project Notes"
             }
           }
         ]
@@ -168,5 +172,9 @@
     }
   },
   "active": "db01ca4acf1562fc",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "SLP/Paper Notes.md",
+    "SLP/Project Notes.md",
+    "SLP/2026-10-29.md"
+  ]
 }
