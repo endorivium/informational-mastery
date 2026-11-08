@@ -11,6 +11,6 @@ Making something amortizable essentially means that there are many cheap operati
 
 [RAG](https://medium.com/@thisiskuhan/into-the-rag-verse-the-origin-and-the-why-0b80350d1e17) (Retrieval-Augmented Generation) *retrieves* content relevant to a query from a knowledge base and passes it as part of the prompt to an LLM, which then *augments* the given information and *generates* a human-like response.
 
-[[AI Agents]] are essentially augmented LLMs that *can take action in the real world* via calls to available tools, utilizing a *loop* that runs until task completion.
+[[AI Agents]] are essentially augmented LLMs that *can take action in the real world* via calls to available tools, utilizing a *loop* that runs until task completion. [Anatomy](https://blog.bytebytego.com/p/ep215-the-anatomy-of-an-ai-agent)
 
 **Agent Topology** defines how agents in a system are organized and communicate within it (Gao et al. 2026)

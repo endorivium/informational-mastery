@@ -1,3 +1,4 @@
+- *agent trajectory* is the ordered sequence of steps between receiving a task and producing a result
 # AI Agents Explained (Video)
 [Video](https://youtu.be/ZvDkJsKE80k?si=YWPapJd9V4N5utZs)
 - *chat bot*: talks (responds to input via prediction), LLM

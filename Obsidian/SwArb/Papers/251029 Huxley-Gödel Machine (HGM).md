@@ -1,11 +1,12 @@
-Wang et al. (24 Oct 2025 | 29 Oct 2025) | [arXiv:2510.21614v3](https://arxiv.org/abs/2510.21614v3)
-[GitHub](https://github.com/metauto-ai/HGM)
+Wang et al. (24 Oct 2025 | 29 Oct 2025) | [arXiv:2510.21614v3](https://arxiv.org/abs/2510.21614v3) | [GitHub](https://github.com/metauto-ai/HGM)
+
 **Short Summary**: Wang et al. propose the 
 ![[Pasted image 20261021204455.png]]
 - **Compound Policy**: compound decision occurs at each step of self-improvement; expand tree by generating new agents or evaluate existing ones? 
 	- *selection policy* chooses between expansion and evaluation
 	- *expansion policy* determines which parent to modify
 	- *evaluation policy* selects an agent to test
+- essentially uses same architecture as [[250529 Darwin Gödel Machine (DGM)]] but modifies policy for search of new and evaluation of archived agents
 
 - **Metaproductivity**: an agent's ability to enhance its own self-improvement skills over time rather than just solving an immediate task
 - **Global Metaproductivity (GMP)**: system-wide metric that tracks how evolution of a single agent impact the long-term evolutionary potential of the entire agent tree, difficult to calculate globally

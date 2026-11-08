@@ -16,7 +16,3 @@
 6. Safety and Security of SE Agents
 7. Conclusion
 
-- section about selection of architectures: why were they chosen, what separates them, etc
-- small note about validity of benchmarks as measurement
-- don't follow template structure, add summary
-- DGM means agent harness when referring to source code, crossreference if all other papers also mean agent harness/ what exactly they are changing

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8cc890092fd3f482",
+        "id": "43971e067cfb6c39",
         "type": "tabs",
         "children": [
           {
-            "id": "db01ca4acf1562fc",
+            "id": "98f0eb33ec403bea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwArb/Papers/260313 Agentic Evolution (A-Evolve).md",
+                "file": "SwArb/Papers/250529 Darwin Gödel Machine (DGM).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260313 Agentic Evolution (A-Evolve)"
+              "title": "250529 Darwin Gödel Machine (DGM)"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 227.7208137512207
   },
   "right": {
     "id": "f9066d28a41606fb",
@@ -171,24 +171,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "db01ca4acf1562fc",
+  "active": "98f0eb33ec403bea",
   "lastOpenFiles": [
-    "SwArb/Papers/251029 Huxley-Gödel Machine.md",
-    "SwArb/Papers/250831 Comprehensive Survey of SE-AI Agents.md",
-    "SwArb/Papers/261016 Survey of SE Agents.md",
+    "SwArb/Comparison and Analysis.md",
     "SwArb/Papers/250529 Darwin Gödel Machine (DGM).md",
-    "SwArb/Papers/250421 Self-Improving Coding Agent (SICA).md",
-    "SwArb/Papers/(WIP) 260815 Evo-Harness.md",
-    "SwArb/Papers/(WIP) 260930 Misevolution.md",
-    "SwArb/Papers/(WIP) Automated Design of Agentic Systems.md",
-    "SwArb/Papers/(WIP) Anthropic - Agent Skills.md",
-    "SwArb/(WIP) Outline - Notes.md",
+    "SwArb/Definitions.md",
     "SwArb/Notes.md",
-    "SwArb/Research Question.md",
-    "SwArb/(1) Table of Contents.md",
-    "SwArb/Articles/Harness Engineering.md",
-    "SLP/Project Notes.md",
-    "SLP/Paper Notes.md",
-    "SLP/2026-10-29.md"
+    "SwArb/(WIP) Outline - Notes.md",
+    "SwArb/Surveys/250831 Fang Survey of SEAI Agents.md",
+    "SwArb/Articles/AI Agents.md",
+    "SwArb/Articles/Architecture of an LLM (simplified).md",
+    "SwArb/Surveys/261016 Gao Survey of SE Agents.md",
+    "SwArb/Surveys/260924 Zhou Survey SE Coding Agents.md",
+    "SwArb/Definitions/Agent Skill.md",
+    "Concepts and Terminology/LLM Concepts.md",
+    "SwArb/Definitions/Harness Engineering.md",
+    "Concepts and Terminology/Regex.md",
+    "Concepts and Terminology/General.md",
+    "SwArb/Papers/260815 Evo-Harness (EH).md",
+    "SwArb/Papers/260807 Mendel Goedel Machine (MGM).md",
+    "SwArb/Papers/260302 Automated Design of Agentic Systems (MAS).md",
+    "SwArb/Papers/260313 Agentic Evolution (A-Evolve, AEv).md",
+    "SwArb/Papers/251029 Huxley-Gödel Machine (HGM).md",
+    "SwArb/Papers/250421 Self-Improving Coding Agent (SICA).md",
+    "SICA.md",
+    "SwArb/Surveys",
+    "SwArb/Papers/(WIP) 261016 SE Agents Failure Repair Generalization.md",
+    "Images/Pasted image 20261106154825.png",
+    "SwArb/Papers/260930 Misevolution.md",
+    "Images/Pasted image 20261106231630.png",
+    "Images/Pasted image 20261106230819.png",
+    "Images/Pasted image 20261106222011.png",
+    "Images/Pasted image 20261106155440.png",
+    "Images/Pasted image 20261106154843.png",
+    "Images/Pasted image 20261106135404.png",
+    "SwArb/Articles/Beyond Fine-Tuning - Architecting the Self-Evolving Agent.md",
+    "Images/Pasted image 20261106135504.png",
+    "Images/Pasted image 20261106135426.png",
+    "SwArb/Definitions",
+    "SwArb/Papers/(WIP) Anthropic - Agent Skills.md"
   ]
 }

@@ -1,1 +1,0 @@
-[Article](https://www.techchat.blog/2026/07/02/when-did-harness-become-an-ai-term/) tracking the term's usage in AI engineering

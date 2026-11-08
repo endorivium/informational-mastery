@@ -3,14 +3,13 @@ Jinyuan Fang et al. (10 Aug 2025 | 31 Aug 2025)
 
 **Short Summary**: defines self-evolving AI agents, describes their anatomy and proposes a framework for multi-agent self-evolving
 
-
-- typical AI agent consists of several components with a "**foundation model** (e.g. an LLM) [as] the core, responsible for interpreting goals, making plans, and executing actions"
+- typical AI agent consists of several components with a "**foundation model** (e.g. an LLM) (*as*) the core, responsible for interpreting goals, making plans, and executing actions"
 - **multi-agent systems (MAS)** consist of multiple agents that collaborate to solve complex problems, allowing for functional specialisation of the individual agents (e.g. for specific subtask or domain of expertise)
 
 Definition of Self-evolving AI agents:
 	`"Self-evolving AI agents are autonomous systems that continuously and systematically optimise their internal components through interaction with environments, with the goal of adapting to changing tasks, contexts and resources while preserving safety and enhancing performance."`
 
-**Anatomy of an AI Agent**
+**Anatomy of an AI Agent** (pg 6)
 - *Foundation Model*: most commonly an LLM, central reasoning engine responsible for interpreting instructions, generating plans, and producing actionable responses
 - *Perception Module*: acquiring and interpreting information from the environment (citing)
 - *Planning Module*: decompose complex tasks into actionable sub-tasks or sequence of operations, guide execution

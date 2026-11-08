@@ -1,5 +1,5 @@
 Jenny Zhang et al. (29 May 2025 | 12 Mar 2026)
-[arXiv:2505.22954v3](https://arxiv.org/abs/2505.22954v3)
+[arXiv:2505.22954v3](https://arxiv.org/abs/2505.22954v3) | [GitHub](https://github.com/jennyzzt/dgm)
 [Suwandi Article](https://richardcsuwandi.github.io/blog/2025/dgm/) | [Patel LinkedIn Article](https://www.linkedin.com/pulse/what-darwin-gödel-machine-agent-rewrote-its-own-code-learned-patel-o7e1c/)
 
 <mark style="background: #FFB86CA6;">Note: check between revisions</mark>
@@ -11,7 +11,6 @@ Jenny Zhang et al. (29 May 2025 | 12 Mar 2026)
 - DGM does not retrain/alter underlying LLM model, base model is frozen
 
 # Paper Summary
-**Short Summary**:
 ![[Pasted image 20261014173144.png]]
 
 - **self-modification phase**: selected coding agents (parent) generate modified version of themselves (child)

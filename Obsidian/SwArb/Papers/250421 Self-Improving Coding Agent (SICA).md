@@ -1,15 +1,18 @@
-Robeyns et al. (21 April 2025 | 16 May 2025) | [arXiv:2504.15228v2](https://arxiv.org/abs/2504.15228v2)
+Robeyns et al. (21 April 2025 | 16 May 2025) | [arXiv:2504.15228v2](https://arxiv.org/abs/2504.15228v2) | [GitHub](https://github.com/MaximeRobeyns/self_improving_coding_agent)
 
 - **agent systems**: code that orchestrates LLM calls and provides them with tools
 - **meta agent**: agent which improves the target agent
 - **target agent**: agent which is used for a given task and needs to be improved
 
-**Short Summary**: SICA is a multi-agent system that 
-
+**Short Summary**:
+![[Pasted image 20261106222011.png]]
 
 **Architecture**
+- SICA has an archive of previous agents and their benchmark results (like [[260302 Automated Design of Agentic Systems (MAS)]]) 
+- takes best performing agent as meta-agent and is tasked to identify an improvement based on the archive, then implement it
+
 - *SWE Bench Verified* as benchmark for improvement
-- multi agent system
+- multi agent system?
 - *initial agent* has the following:
 	- *main agent* which is just the delegator, router and orchestator
 	- *tool set* (file management, shell commands, calculator tool, basic validation tools via a benchmark roblem)
