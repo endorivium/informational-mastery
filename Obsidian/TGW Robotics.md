@@ -25,4 +25,5 @@
 	- Ausbildung Hochschule Rosenheim
 	- **Mitgründer von TGW Robotics zusammen mit Stefan Holzner**
 	- Director Smart Robotics & Technical Lead
-STAR Situtation Task Action Result
+
+STAR Situation Task Action Result

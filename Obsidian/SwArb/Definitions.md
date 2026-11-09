@@ -3,6 +3,14 @@
 
 [Vivek Trivedy](https://www.langchain.com/blog/the-anatomy-of-an-agent-harness) (leading Applied Research at LangChain Labs) from LangChain defines a harnes as "*every piece of code, configuration, and execution logic that isn't the model itself*". An LLM by itself is not an agent and only becomes one with a harness which "*gives it things like state, tool execution, feedback loops, and enforceable contraints*".
 LangChain defines "*Agent = Model + Harness*".
+
+[Illiana Reed from camelAI](https://camelai.com/blog/agent-harness-vs-framework-vs-runtime) defines four layers that can be separated as:
+![[Pasted image 20261109173219.png]]
+Reed defines the *framework* as a library for building the agent loop, the *harness* as a pre-built loop, the runtime where the agent lives over time and the sandbox where the code written by the model is isolated.
+In reference to Trivedy, Reed splits it as *Agent = model + harness + runtime + a sandbox (if the model runs code) + your prompt and tools*.
+
+[Luis Chavez-Mattos from MindStudio](https://www.mindstudio.ai/blog/agent-harness-vs-framework-difference) defines an agent framework as a software library (tools, abstractions, patterns) that is used to build an agent from the ground up, whereas 
+
 # Agent Skill
 **251016 Agent Skill - Anthropic**
 - defines it as "*organized folders of instructions, scripts, and resources that agents can discover and load dynamically to perform better at specific tasks.*"
