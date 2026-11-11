@@ -2,8 +2,6 @@ Minhua Lin et al. (30 Jan 2026 | 13 Mar 2026)
 [arXiv:2602.00359v2](https://arxiv.org/abs/2602.00359v2) | [GitHub](https://github.com/A-EVO-Lab/a-evolve)
 <mark style="background: #FFB86CA6;">Note: check between revisions</mark>
 
-check [this](https://www.emergentmind.com/topics/a-evolve-framework)
-
 <span style="color:rgb(146, 208, 80)">Evolution</span>: `continual learning for LLM systems during deployment`
 <span style="color:rgb(146, 208, 80)">Evolution Scaling Hypothesis</span>: `the capacity for adaptation—the achievable performance frontier of evolution—scales with the compute allocated to the evolution process`
 
@@ -26,7 +24,7 @@ check [this](https://www.emergentmind.com/topics/a-evolve-framework)
 - <span style="color:rgb(146, 208, 80)">Amortization</span>: agentic evolution amortizes repeated inference-time reasoning into durable, governed capability, transforming recurrent failures into stable system assets, i.e. regularily fixes failures
 
 ## Basic Architecture and A-Evolve
-- the behaviour of an LLM is determined by a<span style="color:rgb(146, 208, 80)"> composite policy π = (πθ , πS ) </span>where the first is the `parametric backbone` (i.e. params that governs LLM resposne, e.g. LLM weights), whereas the second is the `non-parametric persistent artifact state` (e.g. tools, code, memories, structured knowledge)
+- the behaviour of an LLM is determined by a<span style="color:rgb(146, 208, 80)"> composite policy π = (πθ , πS ) </span>where the first is the `parametric backbone` (i.e. params that governs LLM response, e.g. LLM weights), whereas the second is the `non-parametric persistent artifact state` (e.g. tools, code, memories, structured knowledge)
 - `Evolution corresponds to cross-episode policy improvement driven by accumulated experience`:
 	 ![[Pasted image 20261008165744.png]]
 - Obs is deployment observations (e.g. interaction traces, environ feedback rewards) F-Evolve is update mechanism, i.e. converts observation into lasting behavioral improvement

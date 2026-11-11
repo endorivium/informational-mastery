@@ -10,9 +10,9 @@ Liu et al. (07 Aug 2026)
 - expansion in MGM splits into three sub-operators
 	- **clonal mutation** where one agent is modified based on one failed task
 	- **reaction-norm mutation** where one agent is modified based on multiple tasks that it has failed
-	- **cross-lineage hybridization** where multiple agents have attempted the same task but not solved by both; failed agent is designated as the target, the other is the reference agent
-		- if reference successful, then difference in their genotype is used to correct target
-		- if reference also fails, then comparison is used to identify complementary failure modes
+	- **cross-lineage hybridization** where multiple agents have attempted the same task but not solved by both; a failed agent is designated as the target, another is the reference agent
+		- if reference was successful, then difference in their genotype is used to correct target
+		- if reference has also failed, then comparison is used to identify complementary failure modes
 		- target is then prompted to extract "`a transferable behavioral trait from the reference trajectory`"
 
 

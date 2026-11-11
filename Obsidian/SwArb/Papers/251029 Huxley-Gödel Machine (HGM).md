@@ -14,7 +14,7 @@ Wang et al. (24 Oct 2025 | 29 Oct 2025) | [arXiv:2510.21614v3](https://arxiv.org
 - **Metaproductivity-Performance Mismatch (MPM)**: divergence between short-term task performance and long-term capacity for self-improvement (as measured by CMP)
 
 **Huxley Gödel Machine (HGM)**
-- *Expansion Policy*: estimate CMP using weighted average of agents' empirical performance in the clade (value between 0 and 1)
+- *Expansion Policy*: estimate CMP using weighted average of agents' empirical performance in the clade (value between 0 and 1), i.e. aggregates the benchmark performances of all its descendants and itself
 	- ![[Pasted image 20261021184238.png]]
 	- n_c_success: num of successful downstream descendants (i.e. self-improvements), num of passed tests of a
 	- n_c_failure: num of unsuccessful downstream descendants, num of failed tests of a

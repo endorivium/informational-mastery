@@ -9,7 +9,7 @@ LangChain defines "*Agent = Model + Harness*".
 Reed defines the *framework* as a library for building the agent loop, the *harness* as a pre-built loop, the runtime where the agent lives over time and the sandbox where the code written by the model is isolated.
 In reference to Trivedy, Reed splits it as *Agent = model + harness + runtime + a sandbox (if the model runs code) + your prompt and tools*.
 
-[Luis Chavez-Mattos from MindStudio](https://www.mindstudio.ai/blog/agent-harness-vs-framework-difference) defines an agent framework as a software library (tools, abstractions, patterns) that is used to build an agent from the ground up, whereas 
+[Luis Chavez-Mattos from MindStudio](https://www.mindstudio.ai/blog/agent-harness-vs-framework-difference) defines an agent *framework* (e.g. LangChain) as a software library (tools, abstractions, patterns) that is used to build an agent from the ground up, whereas agent *harnesses* are defined as a runtime environment that wraps an agent (or set of agents), handling the operational layer for the user. "*With  a framework, you write the agent. With a harness, you configure the agent.*"
 
 # Agent Skill
 **251016 Agent Skill - Anthropic**
@@ -21,13 +21,15 @@ In reference to Trivedy, Reed splits it as *Agent = model + harness + runtime + 
 	- *second level*: body is fully loaded into context window
 	- *third level* and beyond: skill is further split into sub skills that link to additional files within the skill directory
 
-# Anatomy of an AI Agent
-from [[250831 Fang Survey of SEAI Agents]]
+# AI Agent
+from [[250831 Fang Survey of SEAI Agents]], agents have the following components:
 - *Foundation Model*: most commonly an LLM, central reasoning engine responsible for interpreting instructions, generating plans, and producing actionable responses
 - *Perception Module*: acquiring and interpreting information from the environment (citing)
 - *Planning Module*: decompose complex tasks into actionable sub-tasks or sequence of operations, guide execution
 - *Memory Module*: retain and recall past experience, enabling context-aware reasoning and long-term consistency; short-term (specific to current task) and long-term memory (across multiple tasks)
 - *Tool Use*: key factor for AI agents to effectively operate in real-world scenarios
+
+[Anthropic](https://www.anthropic.com/research/building-effective-agents) differentiates between *workflows* and *agents* where the former are systems that orchestrates LLMs and tools through predefined code paths. The latter are systems where LLMs dynamically direct their own processes and tool usage, maintaining control over how they accomplish tasks.
 
 # Context Window
 [Claude](https://platform.claude.com/docs/en/build-with-claude/context-windows) defines a context window as "*all the text a language model can reference when generating a response, including the response itself (...) (representing) a "working memory" for the model*". It **progressively accumulates tokens** (user messages, assistant response) during its **input-output loop** where all previous conversation history constitutes the input and the generated response is the output which turn becomes part of the input again.

@@ -1,4 +1,4 @@
-- *agent trajectory* is the ordered sequence of steps between receiving a task and producing a result
+- *agent trajectory* is the ordered sequence of steps between receiving a task and producing a result. It is the complete sequence of actions, observations, and decisions that an AI agent produces while working through a task from start to finish ([Belfer](https://www.ai21.com/glossary/ai-agent/what-is-an-agentic-trajectory/)).
 # AI Agents Explained (Video)
 [Video](https://youtu.be/ZvDkJsKE80k?si=YWPapJd9V4N5utZs)
 - *chat bot*: talks (responds to input via prediction), LLM
