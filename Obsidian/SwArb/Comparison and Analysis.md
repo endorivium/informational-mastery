@@ -37,6 +37,8 @@ The goal is to **analyze popular architectures for such agents** (e.g., the Darw
 ## Self-Improving Coding Agent (SICA)
 [[250421 Self-Improving Coding Agent (SICA)]]
 - while implementation might look like multi agent system, sub-agents do not exhibit enough autonomous behaviour to qualify as their own agents
+- same loop as [[260302 Automated Design of Agentic Systems (MAS)]], keeping an archive of previous agents and becnhmark results, but meta agent (i.e. agent that finds and implements improvement) comes from archive and is not separate, then evaluating the new agent on benchmarks
+-  "*our self-improving coding agent is fully self-improving (i.e. there is no distinction between the meta and target agent), and it operates over the agent's full Python codebase*"
 
 ## A-Evolve (AEv)
 [[260313 Agentic Evolution (A-Evolve, AEv)]]
@@ -44,7 +46,7 @@ The goal is to **analyze popular architectures for such agents** (e.g., the Darw
 	- in their survey, *Gama et al.* talk about **concept drift** where the underlying relationship between a machine learning model's input feature and target variable changes over time, leading to degradation in that model's accuracy:
 	- *real concept drift refers to changes in the conditional distribution of the output (i.e., target variable) given the input (input features), while the distribution of the input may stay unchanged.* 
 - incorporate an **explicit evolver agent** which diagnoses what to change and when, collaboratively synthesize composable updates and improve both the parametric backbone and the persistent artifact state
-- **only changes persistent artifact state** (pg 12)
+- **only changes persistent artifact state** (pg 12) of the target agent, does not evolve the evolver agent
 ## Meta Agent Search (ADAS, MAS)
 [[260302 Automated Design of Agentic Systems (MAS)]]
 
@@ -55,7 +57,7 @@ The goal is to **analyze popular architectures for such agents** (e.g., the Darw
 
 
 # Comparison Summary
-
+- do it high level (basic loop) and if possible, then in detail (cf. SICA implementation with sub-agents)
 
 |      | Baseline Loop | Implemen-tation | Comp-onents | Bench-marks | Effective-ness | Code                                                                     |
 | ---- | ------------- | --------------- | ----------- | ----------- | -------------- | ------------------------------------------------------------------------ |
