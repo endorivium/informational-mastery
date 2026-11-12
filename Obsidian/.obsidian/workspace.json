@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "996f318a84c2f414",
+        "id": "acc767f58bc1419a",
         "type": "tabs",
         "children": [
           {
-            "id": "a21a3605685c2176",
+            "id": "97cab66db8797e85",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SwArb/Papers/250421 Self-Improving Coding Agent (SICA).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "250421 Self-Improving Coding Agent (SICA)"
+              "title": "New tab"
             }
           }
         ]
@@ -172,49 +168,12 @@
       "bases:Create new base": false
     }
   },
-  "floating": {
-    "id": "42021ab71cac0b30",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7dcf5cdd1e45d43e",
-        "type": "window",
-        "children": [
-          {
-            "id": "816e263e0cc7d7ef",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "23a10b333b869ca7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "SwArb/Comparison and Analysis.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Comparison and Analysis"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 952,
-        "y": -8,
-        "width": 976,
-        "height": 1066,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "a21a3605685c2176",
+  "active": "97cab66db8797e85",
   "lastOpenFiles": [
-    "SwArb/Comparison and Analysis.md",
+    "SLP/261112 Notes.md",
+    "SLP/261029 Notes.md",
     "SwArb/Papers/250421 Self-Improving Coding Agent (SICA).md",
+    "SwArb/Comparison and Analysis.md",
     "TGW Robotics.md",
     "SwArb/Papers/260313 Agentic Evolution (A-Evolve, AEv).md",
     "SwArb/Definitions.md",
@@ -225,7 +184,6 @@
     "SwArb/Articles/AI Agents.md",
     "Images/Pasted image 20261109173219.png",
     "SLP/Pitch.md",
-    "SLP/Untitled.md",
     "SLP/Project Notes.md",
     "Images/Pasted image 20261109074656.png",
     "SwArb/(WIP) Outline - Notes.md",
