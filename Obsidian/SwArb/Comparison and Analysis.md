@@ -6,8 +6,10 @@ The goal is to **analyze popular architectures for such agents** (e.g., the Darw
 	- difference skill and tool
 	- meta agent different from sub-agent?
 - should answer these questions for each model individually and then congegrate them into one unified version
-
 - instead of focusing on source code vs. harness, it might make more sense to differentiate between real self-evolving agents (i.e. the agents actively evolve parts of their own behaviour) and self-evolving frameworks (i.e. there is a evolver or similar that is not the agent itself and which does not evolve)
+- mention that this work differentiate itself from survey by not actually being a survey and instead reviewing and analysing two specific architectures with some additional architectures that are go into the same conceptual direction and thus augment the differentiation between the two
+- when the agent is deployed, when do you actually run these loops to make it self-evolve?
+- is there a threshold (benchmark result) for "failed/bad" agents?
 
 # Frameworks (In Depth Analysis)
 ## Darwin Gödel Machine (DGM)
@@ -37,7 +39,7 @@ The goal is to **analyze popular architectures for such agents** (e.g., the Darw
 ## Self-Improving Coding Agent (SICA)
 [[250421 Self-Improving Coding Agent (SICA)]]
 - while implementation might look like multi agent system, sub-agents do not exhibit enough autonomous behaviour to qualify as their own agents
-- same loop as [[260302 Automated Design of Agentic Systems (MAS)]], keeping an archive of previous agents and becnhmark results, but meta agent (i.e. agent that finds and implements improvement) comes from archive and is not separate, then evaluating the new agent on benchmarks
+- same loop as [[260302 Automated Design of Agentic Systems (ADAS, MAS)]], keeping an archive of previous agents and becnhmark results, but meta agent (i.e. agent that finds and implements improvement) comes from archive and is not separate, then evaluating the new agent on benchmarks
 -  "*our self-improving coding agent is fully self-improving (i.e. there is no distinction between the meta and target agent), and it operates over the agent's full Python codebase*"
 
 ## A-Evolve (AEv)
@@ -48,11 +50,18 @@ The goal is to **analyze popular architectures for such agents** (e.g., the Darw
 - incorporate an **explicit evolver agent** which diagnoses what to change and when, collaboratively synthesize composable updates and improve both the parametric backbone and the persistent artifact state
 - **only changes persistent artifact state** (pg 12) of the target agent, does not evolve the evolver agent
 ## Meta Agent Search (ADAS, MAS)
-[[260302 Automated Design of Agentic Systems (MAS)]]
-
+[[260302 Automated Design of Agentic Systems (ADAS, MAS)]]
+- MAS is split into Design - Evaluation - Update steps, involving a meta agent and an archive of designed agents
+	- designs a new agent via a high-level description of a new idea for an agentic system
+	- then implements it
+	- undergoes two self-reflection steps and ensures the agent's novelty
+	- agent is evaluated on target domain (and re-designed up to five times if it fails)
+	- agent is added to archive
+	- return final archive of designed agents
 ## Evo Harness (EH)
 [[260815 Evo-Harness (EH)]]
-
+- specifically split solver, evolver, feedback source and initial harness state
+- 
 
 
 

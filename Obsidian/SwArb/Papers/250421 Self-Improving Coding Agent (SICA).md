@@ -8,7 +8,7 @@ Robeyns et al. (21 April 2025 | 16 May 2025) | [arXiv:2504.15228v2](https://arxi
 ![[Pasted image 20261106222011.png]]
 
 **Architecture**
-- SICA has an archive of previous agents and their benchmark results (like [[260302 Automated Design of Agentic Systems (MAS)]]) 
+- SICA has an archive of previous agents and their benchmark results (like [[260302 Automated Design of Agentic Systems (ADAS, MAS)]]) 
 - takes best performing agent as meta-agent and is tasked to identify an improvement based on the archive, then implement it
 
 - *SWE Bench Verified* as benchmark for improvement

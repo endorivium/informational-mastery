@@ -10,7 +10,8 @@ Wei et al. (15 Aug 2026 | 30 Aug 2026)
 		- *solver* reflects on the context and proposes candidate skills
 		- *evolver* updates existing harness
 	- two stages
-		- *execution reflection*: 
+		- *execution reflection*: converts contexts into candidate memories
+			- evolver compares these memories with current harness
 		- *harness evolution*: receives the candidate memories and current harness, creating a set of harness edits
 			- evolver filters noisy/redundant memories, merges compatible signals, revises existing guidance, promotes reusable lessons
 - **Skills** are split into
