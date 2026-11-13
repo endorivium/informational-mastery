@@ -1,17 +1,17 @@
-- [ ] Eckenabrunder
-- [ ] Roter Stift
-- [ ] Sicherheitsnadeln
-- [ ] Nice Hose, Hemd
-- [ ] Kette, Ribbon, Brosche, Haarreif
-- [ ] Parfum, Eyeliner
-- [ ] Thermos
+- [x] Eckenabrunder
+- [x] Roter Stift
+- [x] Sicherheitsnadeln
+- [x] Nice Hose, Hemd
+- [x] Kette, Ribbon, Brosche, Haarreif
+- [x] Parfum, Eyeliner
+- [x] Thermos
 
-- [ ] Zahnputzzeug, Waschgel, Spray
-- [ ] Schlafi, Unterwäsche
+- [x] Zahnputzzeug, Waschgel, Spray
+- [x] Schlafi, Unterwäsche
 
-- [ ] Powerbank
-- [ ] Ladekabel
-- [ ] Kopfhörer
+- [x] Powerbank
+- [x] Ladekabel
+- [x] Kopfhörer
 
-- [ ] Mini Keyboard (Beck)
-- [ ] Laptop Fan (Justin)
+- [x] Mini Keyboard (Beck)
+- [x] Laptop Fan (Justin)
