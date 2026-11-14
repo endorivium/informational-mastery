@@ -10,6 +10,10 @@ The goal is to **analyze popular architectures for such agents** (e.g., the Darw
 - mention that this work differentiate itself from survey by not actually being a survey and instead reviewing and analysing two specific architectures with some additional architectures that are go into the same conceptual direction and thus augment the differentiation between the two
 - when the agent is deployed, when do you actually run these loops to make it self-evolve?
 - is there a threshold (benchmark result) for "failed/bad" agents?
+- section about selection of architectures: why were they chosen, what separates them, etc
+- small note about validity of benchmarks as measurement
+- don't follow template structure, add summary
+- DGM means agent harness when referring to source code, crossreference if all other papers also mean agent harness/ what exactly they are changing
 
 # Frameworks (In Depth Analysis)
 ## Darwin Gödel Machine (DGM)

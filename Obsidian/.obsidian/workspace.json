@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Buchmesse.md",
+                "file": "SwArb/Comparison and Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Buchmesse"
+              "title": "Comparison and Analysis"
             }
           }
         ]
@@ -173,7 +173,9 @@
   },
   "active": "9f760e240aed3b51",
   "lastOpenFiles": [
+    "SwArb/Notes.md",
     "SwArb/Comparison and Analysis.md",
+    "Buchmesse.md",
     "SwArb/Definitions.md",
     "SwArb/Research Question.md",
     "SwArb/Articles/Architecture of an LLM (simplified).md",
@@ -185,7 +187,6 @@
     "SwArb/Papers/250421 Self-Improving Coding Agent (SICA).md",
     "SwArb/Papers/260815 Evo-Harness (EH).md",
     "SwArb/Papers/260302 Automated Design of Agentic Systems (ADAS, MAS).md",
-    "Buchmesse.md",
     "ML/Linear Regression.md",
     "Images/Pasted image 20261112164606.png",
     "Images/Pasted image 20261112173051.png",
@@ -203,7 +204,6 @@
     "SLP/261029 Notes.md",
     "TGW Robotics.md",
     "SwArb/Papers/260807 Mendel Goedel Machine (MGM).md",
-    "SwArb/Notes.md",
     "Images/Pasted image 20261109173219.png",
     "SLP/Pitch.md",
     "SLP/Untitled.md",
