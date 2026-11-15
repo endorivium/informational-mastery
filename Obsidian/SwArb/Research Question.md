@@ -3,7 +3,7 @@
 
 [Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/abs/2505.22954): [[250529 Darwin Gödel Machine (DGM)]]
 
-[Agentic Evolution is the Path to Evolving LLMs](https://arxiv.org/pdf/2602.00359): [[260313 Agentic Evolution (A-Evolve, AEv)]]
+[Agentic Evolution is the Path to Evolving LLMs](https://arxiv.org/pdf/2602.00359): [[260313 A-Evolve]]
 
 **What is the topic about?**  
 Various architectures have been proposed for how a self-evolving agent can be built. By self-evolving agent, we mean an **agent that can modify its own code, tools, or persistent state**, either to satisfy requirements given by a human or based on failures and gaps it identifies on its own during deployment.

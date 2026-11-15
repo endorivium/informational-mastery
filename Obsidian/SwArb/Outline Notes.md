@@ -1,0 +1,61 @@
+The goal is to **analyze popular architectures for such agents** (e.g., the Darwin Gödel Machine and A-Evolve) and identify the <mark style="background: #ABF7F7A6;">key components that recur across them, what state gets modified</mark> (source code vs. persistent artifacts like tools/knowledge/tests), <mark style="background: #ABF7F7A6;">what proposes a change,</mark> and what decides whether a <mark style="background: #ABF7F7A6;">proposed change is kept or discarded.</mark>
+
+**notes**:
+- clearly establish boundary of paper as analysis and comparison of specifically two architectures with other architecures as supporting examples
+- highlight the problem of non-unified technical terms within this research field
+- no unified naming for components, so hard to equate components
+	- source code different from agent harness?
+	- difference skill and tool
+	- meta agent different from sub-agent?
+- should answer these questions for each model individually and then congegrate them into one unified version
+- instead of focusing on source code vs. harness, it might make more sense to differentiate between real self-evolving agents (i.e. the agents actively evolve parts of their own behaviour) and self-evolving frameworks (i.e. there is a evolver or similar that is not the agent itself and which does not evolve)
+- mention that this work differentiate itself from survey by not actually being a survey and instead reviewing and analysing two specific architectures with some additional architectures that are go into the same conceptual direction and thus augment the differentiation between the two
+- when the agent is deployed, when do you actually run these loops to make it self-evolve?
+- is there a threshold (benchmark result) for "failed/bad" agents?
+- section about selection of architectures: why were they chosen, what separates them, etc
+- small note about validity of benchmarks as measurement
+- don't follow template structure, add summary
+- DGM means agent harness when referring to source code, crossreference if all other papers also mean agent harness/ what exactly they are changing
+
+**literature review**
+- should define the modules of an agents which can later be evolved
+- mention existing surveys and establish paper boundary
+- take over definitions based on 
+- give definitions for harness vs source code
+
+**architectures**
+- do it high level (basic loop) and if possible, then in detail (cf. SICA implementation with sub-agents)
+
+**components of an SE agent**
+- summarise self-evolve loop (as demonstrated in DGM and AEv)
+- discuss how the main difference between the two is the evolution of the meta agent itself as opposed to just evolving the main agent itself
+
+1. **Introduction**
+2. **Literature Review**
+	1. *Existing Surveys*
+	2. *Defining the Source Code of an Agent*
+3. **Architectures**
+	1. *Split Self-Evolving Agents*
+		- architectures that keep the meta agent separate from the agent being involved
+		1. `A-Evolve`
+			- solve-evolve phases, evolve phase split into diagnose-plan-update-verify, keeps a cumulative evidence buffer that is accumulated during solve and consumed during evolve
+		2. `Meta-Harness`
+			- outsources evolution to coding agent (here: Claude Code with Opus-4.6) with full access to whole harness filesystem
+		3. `Evo-Harness`
+			- select harness, inject into task (out: exec context), reflect on context (out: memory), filter and merge candidate memories, evolve harness
+	2. *Unified Self-Evolving Agents*
+		- architectures where the meta agent and the agent being evolved are the same
+		1. `Self-Improving Coding Agent`
+			- takes best performing agent, indentifies improvement based on whole archive, implements the improvement
+		2. `Darwin Gödel Machine`
+			- self-modification and eval phases with open-ended exploration (any previous agent can be chosen), generates modified version of self based on benchmark eval logs
+		3. `Huxley Gödel Machine`
+		4. `Mendel Gödel Machine`
+4. **Components of a Self-Evolving Agent**
+	1. `Self-Evolve Loop`
+	2. `Evolving the Meta Agent`
+	3. `When to Evolve`
+5. **Further Discussion**
+	-  [[261016 SE Agents Failure Repair Generalization]] tested Evo-Harness and hypothesize if truly self-evolving agents (such as DGM) would overcome this gap
+	- safety concerns of unified self-evolving agents
+6. **Conclusion**
