@@ -33,3 +33,8 @@ from [[250831 Fang Survey of SEAI Agents]], agents have the following components
 
 # Context Window
 [Claude](https://platform.claude.com/docs/en/build-with-claude/context-windows) defines a context window as "*all the text a language model can reference when generating a response, including the response itself (...) (representing) a "working memory" for the model*". It **progressively accumulates tokens** (user messages, assistant response) during its **input-output loop** where all previous conversation history constitutes the input and the generated response is the output which turn becomes part of the input again.
+
+# Other
+[Source Code](https://www.merriam-webster.com/dictionary/source%20code) is defined as "*a computer program in its original programming language (such as FORTRAN or C) before translation into object code usually by a compiler*"
+
+

@@ -15,7 +15,7 @@
 [[251029 Huxley-Gödel Machine (HGM)]]
 - improves on the DGM by *modifying the search and evaluation policy* of new and existing agents: **selection** (evolve or evaluate?), **expansion** (which agent to evolve?), **evaluation** (which agent to test?)
 - argue for the occurance of **Metaproductivity Performance Mismatch** where an agent's self-improvement potential mismatches its coding benchmark performance
-- uses **Clade-Metaproductivity** to determine how successful the parent agent but especially its descendant are
+- uses **Clade-Metaproductivity** to determine how successful the descendants of a parent are, evaluating the long-term improvement that the given "clade" has achieved
 - else, same architecture as DGM
 ### Mendel Gödel Machine (MGM)
 [[260807 Mendel Goedel Machine (MGM)]]
