@@ -32,7 +32,9 @@ from [[250831 Fang Survey of SEAI Agents]], agents have the following components
 [Anthropic](https://www.anthropic.com/research/building-effective-agents) differentiates between *workflows* and *agents* where the former are systems that orchestrates LLMs and tools through predefined code paths. The latter are systems where LLMs dynamically direct their own processes and tool usage, maintaining control over how they accomplish tasks.
 
 # Context Window
-[Claude](https://platform.claude.com/docs/en/build-with-claude/context-windows) defines a context window as "*all the text a language model can reference when generating a response, including the response itself (...) (representing) a "working memory" for the model*". It **progressively accumulates tokens** (user messages, assistant response) during its **input-output loop** where all previous conversation history constitutes the input and the generated response is the output which turn becomes part of the input again.
+[Claude Platform Docs](https://platform.claude.com/docs/en/build-with-claude/context-windows) defines the context window as "*all the text a language model can reference when generating a response, including the response itself (...) (representing) a "working memory" for the model*". It **progressively accumulates tokens** (user messages, assistant response) during its **input-output loop** where all previous conversation history constitutes the input and the generated response is the output which turn becomes part of the input again.
+
+[Anthropic](https://www.anthropic.com/research/components-of-agent-memory) defines *agent memory* as knowledge gained from experience that is retained between sessions and which can be injected into the context to be read later.
 
 # Other
 [Source Code](https://www.merriam-webster.com/dictionary/source%20code) is defined as "*a computer program in its original programming language (such as FORTRAN or C) before translation into object code usually by a compiler*"
