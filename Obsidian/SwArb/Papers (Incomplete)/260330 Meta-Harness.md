@@ -3,7 +3,7 @@ Lee et al. (30 Mar 2026) | [arXiv:2603.28052](https://arxiv.org/abs/2603.28052)
 
 - provides interactive website and evolved harness artifact
 
-**Short Summary**: Uses a **proposer** (separate coding agent) which decides *what to inspect*validates edits through direct interaction with the codebase, has *filesystem access* (source code, evaluation scores, execution traces) and executes selective diagnosis of raw prior code and execution traces, also has an archive of previous harnesses
+**Short Summary**: Uses a **proposer** (separate coding agent) which decides *what to inspect* validates edits through direct interaction with the codebase, has *filesystem access* (source code, evaluation scores, execution traces) and executes selective diagnosis of raw prior code and execution traces, also has an archive of previous harnesses
 
 ![[Pasted image 20261115211408.png]]
 

@@ -1,0 +1,28 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="Py-HRsP6XU3dcLXqLGzo">
+    <mxGraphModel dx="673" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pDCo2LOUkravzOKyiPse-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;fillColor=#FFFFFF;strokeColor=#b85450;fontColor=#990000;" value="Harness&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="210" x="325" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pDCo2LOUkravzOKyiPse-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=0;" value="Foundational Mode&lt;div&gt;(e.g. LLM)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="pDCo2LOUkravzOKyiPse-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Context Window" vertex="1">
+          <mxGeometry height="40" width="80" x="337.5" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pDCo2LOUkravzOKyiPse-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Skills" vertex="1">
+          <mxGeometry height="40" width="80" x="442.5" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pDCo2LOUkravzOKyiPse-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Memory Module" vertex="1">
+          <mxGeometry height="45" width="80" x="337.5" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="pDCo2LOUkravzOKyiPse-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Tools" vertex="1">
+          <mxGeometry height="45" width="80" x="442.5" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
