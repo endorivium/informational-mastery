@@ -11,10 +11,14 @@
             "id": "05fe09da96493078",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SwArb/Papers (Incomplete)/260815 Evo-Harness (EH).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "260815 Evo-Harness (EH)"
             }
           }
         ]
@@ -167,16 +171,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "8f4c271faf954961",
+  "active": "05fe09da96493078",
   "lastOpenFiles": [
+    "SwArb/Definitions.md",
+    "SwArb/Papers (Incomplete)/260815 Evo-Harness (EH).md",
     "2026-11-19.md",
     "SwArb/Outline Notes.md",
     "SwArb/Papers (Incomplete)/260313 A-Evolve.md",
     "SwArb/Agent Notes.md",
     "SwArb/Papers (Incomplete)/261016 SE Agents Failure Repair Generalization.md",
     "SwArb/Papers (Incomplete)/260330 Meta-Harness.md",
-    "SwArb/Papers (Incomplete)/260815 Evo-Harness (EH).md",
-    "SwArb/Definitions.md",
     "SwArb/Surveys/250831 Fang Survey of SEAI Agents.md",
     "SwArb/Surveys/261016 Gao Survey of SE Agents.md",
     "SwArb/Surveys/260924 Zhou Survey SE Coding Agents.md",
