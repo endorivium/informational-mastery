@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwArb/Papers (Incomplete)/260815 Evo-Harness (EH).md",
+                "file": "SwArb/Outline Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260815 Evo-Harness (EH)"
+              "title": "Outline Notes"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 365.5
   },
   "right": {
     "id": "f9066d28a41606fb",
@@ -173,22 +173,22 @@
   },
   "active": "05fe09da96493078",
   "lastOpenFiles": [
-    "SwArb/Definitions.md",
-    "SwArb/Papers (Incomplete)/260815 Evo-Harness (EH).md",
-    "2026-11-19.md",
-    "SwArb/Outline Notes.md",
-    "SwArb/Papers (Incomplete)/260313 A-Evolve.md",
-    "SwArb/Agent Notes.md",
-    "SwArb/Papers (Incomplete)/261016 SE Agents Failure Repair Generalization.md",
+    "SwArb/Outline Iterations.md",
     "SwArb/Papers (Incomplete)/260330 Meta-Harness.md",
+    "SwArb/Outline Notes.md",
+    "SwArb/Papers (Incomplete)/260302 Automated Design of Agentic Systems (ADAS, MAS).md",
+    "SwArb/Papers (Incomplete)/250421 Self-Improving Coding Agent (SICA).md",
+    "SwArb/Agent Notes.md",
+    "SwArb/Papers (Incomplete)/260815 Evo-Harness (EH).md",
+    "SwArb/Definitions.md",
+    "2026-11-19.md",
+    "SwArb/Papers (Incomplete)/260313 A-Evolve.md",
+    "SwArb/Papers (Incomplete)/261016 SE Agents Failure Repair Generalization.md",
     "SwArb/Surveys/250831 Fang Survey of SEAI Agents.md",
     "SwArb/Surveys/261016 Gao Survey of SE Agents.md",
     "SwArb/Surveys/260924 Zhou Survey SE Coding Agents.md",
     "SwArb/Articles/AI Agents.md",
-    "SwArb/Outline Iterations.md",
     "SwArb/AI Usage Survey Results.md",
-    "SwArb/Papers (Incomplete)/260302 Automated Design of Agentic Systems (ADAS, MAS).md",
-    "SwArb/Papers (Incomplete)/250421 Self-Improving Coding Agent (SICA).md",
     "SwArb/Papers (Incomplete)/250529 Darwin Gödel Machine (DGM).md",
     "SwArb/Papers (Incomplete)/251029 Huxley-Gödel Machine (HGM).md",
     "SwArb/Papers (Incomplete)/260807 Mendel Goedel Machine (MGM).md",

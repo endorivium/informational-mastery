@@ -12,3 +12,6 @@ Lee et al. (30 Mar 2026) | [arXiv:2603.28052](https://arxiv.org/abs/2603.28052)
 - "Meta-Harness can improve automatically as coding agents become more capable"
 - practical implementation: each harness is a single-file Python program that modifies task-specific prompting, retrieval, memory, and orchestration logic, proposer is Claude Code with Opus-4.6
 - *filesystem contains all prior candidates' source code, execution traces and scores*
+
+https://medium.com/@deneb.acyg/multi-objective-optimization-part-1-pareto-dominance-64bb140d162a
+https://cobusgreyling.medium.com/the-pareto-frontier-for-ai-agents-fa477eaaac6e
