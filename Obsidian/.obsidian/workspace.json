@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwArb/Outline Notes.md",
+                "file": "SwArb/Papers (Incomplete)/260807 Mendel Goedel Machine (MGM).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Outline Notes"
+              "title": "260807 Mendel Goedel Machine (MGM)"
             }
           }
         ]
@@ -173,11 +173,13 @@
   },
   "active": "05fe09da96493078",
   "lastOpenFiles": [
-    "SwArb/Outline Iterations.md",
-    "SwArb/Papers (Incomplete)/260330 Meta-Harness.md",
-    "SwArb/Outline Notes.md",
+    "SwArb/Papers (Incomplete)/251029 Huxley-Gödel Machine (HGM).md",
+    "SwArb/Papers (Incomplete)/250529 Darwin Gödel Machine (DGM).md",
     "SwArb/Papers (Incomplete)/260302 Automated Design of Agentic Systems (ADAS, MAS).md",
     "SwArb/Papers (Incomplete)/250421 Self-Improving Coding Agent (SICA).md",
+    "SwArb/Outline Notes.md",
+    "SwArb/Outline Iterations.md",
+    "SwArb/Papers (Incomplete)/260330 Meta-Harness.md",
     "SwArb/Agent Notes.md",
     "SwArb/Papers (Incomplete)/260815 Evo-Harness (EH).md",
     "SwArb/Definitions.md",
@@ -189,8 +191,6 @@
     "SwArb/Surveys/260924 Zhou Survey SE Coding Agents.md",
     "SwArb/Articles/AI Agents.md",
     "SwArb/AI Usage Survey Results.md",
-    "SwArb/Papers (Incomplete)/250529 Darwin Gödel Machine (DGM).md",
-    "SwArb/Papers (Incomplete)/251029 Huxley-Gödel Machine (HGM).md",
     "SwArb/Papers (Incomplete)/260807 Mendel Goedel Machine (MGM).md",
     "SwArb/Papers (Incomplete)/260930 Misevolution.md",
     "Pasted image 20261115211408.png",
