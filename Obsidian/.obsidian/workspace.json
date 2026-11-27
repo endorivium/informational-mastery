@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "train",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +79,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,7 +171,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "05fe09da96493078",
+  "active": "8f4c271faf954961",
   "lastOpenFiles": [
     "SwArb/Surveys/261016 Gao Survey of SE Agents.md",
     "SwArb/Papers (Incomplete)/260807 Mendel Goedel Machine (MGM).md",
